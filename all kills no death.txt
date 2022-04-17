@@ -1,0 +1,25 @@
+--Fixed by DERP#6691
+--Then fixed by yes#9067
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer.PlayerGui
+local textButton = Instance.new("TextButton")
+textButton.Size = UDim2.new(0, 100, 0, 100)
+textButton.Parent = screenGui
+textButton.Text = "Assassin TP Script - Click To Use"
+textButton.MouseButton1Down:connect(function()
+end)
+    local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer.PlayerGui
+local textButton = Instance.new("TextButton")
+textButton.Size = UDim2.new(0, 100, 0, 100)
+textButton.Parent = screenGui
+textButton.Text = "Assassin TP Script - Click To Use"
+textButton.MouseButton1Down:connect(function()
+    for i = 1, math.huge, 1 do
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-651.750, 15.299, -878.219))
+yourtarget = game.Players.LocalPlayer.PlayerGui.ScreenGui.UI.Target.Img.PlayerText
+plr = game.Players:FindFirstChild(yourtarget.Text)
+plr.Character.Head.Position = game.Players.LocalPlayer.Character.Head.Position + Vector3.new(0,-1,2)
+end
+end)

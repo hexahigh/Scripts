@@ -1,0 +1,17 @@
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+
+function woosh()
+if mouse.Target ~= nil then
+if mouse.Target.CanCollide== false and mouse.Target.Transparency == .5
+then 
+mouse.Target.CanCollide= true
+mouse.Target.Transparency = 0
+else
+mouse.Target.Transparency = .5
+mouse.Target.CanCollide = false
+end
+end
+end
+
+mouse.Button1Down:connect(woosh)
