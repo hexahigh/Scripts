@@ -1,0 +1,1195 @@
+-- sorry for obfuscating xddd
+
+local d_b=Instance.new("ScreenGui")
+local _ab=Instance.new("Frame")local aab=Instance.new("TextButton")
+local bab=Instance.new("TextLabel")local cab=Instance.new("Frame")
+local dab=Instance.new("TextLabel")local _bb=Instance.new("TextLabel")
+local abb=Instance.new("TextLabel")local bbb=Instance.new("TextButton")
+local cbb=Instance.new("Frame")local dbb=Instance.new("TextLabel")
+local _cb=Instance.new("TextButton")local acb=Instance.new("ScrollingFrame")
+local bcb=Instance.new("TextBox")local ccb=Instance.new("TextButton")
+local dcb=Instance.new("TextButton")local _db=Instance.new("Frame")
+local adb=Instance.new("TextLabel")local bdb=Instance.new("TextButton")
+local cdb=Instance.new("TextButton")local ddb=Instance.new("TextButton")
+local __c=Instance.new("Frame")local a_c=Instance.new("TextLabel")
+local b_c=Instance.new("TextButton")local c_c=Instance.new("TextButton")
+local d_c=Instance.new("TextButton")local _ac=Instance.new("TextButton")
+local aac=Instance.new("TextButton")local bac=Instance.new("TextButton")
+local cac=Instance.new("TextButton")local dac=Instance.new("TextButton")
+local _bc=Instance.new("TextButton")local abc=Instance.new("TextButton")
+local bbc=Instance.new("TextLabel")local cbc=Instance.new("TextButton")
+local dbc=Instance.new("Frame")local _cc=Instance.new("TextLabel")
+local acc=Instance.new("TextButton")local bcc=Instance.new("TextButton")
+local ccc=Instance.new("TextButton")local dcc=Instance.new("TextButton")
+local _dc=Instance.new("TextButton")local adc=Instance.new("TextButton")
+local bdc=Instance.new("TextButton")local cdc=Instance.new("TextButton")
+local ddc=Instance.new("TextButton")local __d=Instance.new("TextButton")
+local a_d=Instance.new("TextLabel")local b_d=Instance.new("TextButton")
+local c_d=Instance.new("TextLabel")local d_d=Instance.new("TextButton")
+local _ad=Instance.new("TextButton")local aad=Instance.new("TextButton")d_b.Name="Physic"
+d_b.Parent=game.CoreGui;_ab.Name="frame"_ab.Parent=d_b;_ab.Active=true
+_ab.BackgroundColor3=Color3.new(1,1,1)_ab.Draggable=true;_ab.Position=UDim2.new(0,20,0,300)
+_ab.Size=UDim2.new(0,500,0,400)_ab.Style=Enum.FrameStyle.ChatRed;aab.Name="MainPageButton"
+aab.Parent=_ab;aab.BackgroundColor3=Color3.new(1,1,1)
+aab.Size=UDim2.new(0,100,0,65)aab.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+aab.Font=Enum.Font.SourceSans;aab.FontSize=Enum.FontSize.Size18;aab.Text="Main Page"
+aab.TextSize=18
+aab.MouseButton1Down:connect(function()cab.Visible=true;cbb.Visible=false
+dbc.Visible=false;_db.Visible=false;__c.Visible=false end)bab.Name="Divider"bab.Parent=_ab
+bab.BackgroundColor3=Color3.new(0.992157,0.266667,0.282353)bab.BorderColor3=Color3.new(1,1,1)bab.BorderSizePixel=0;bab.Position=UDim2.new(0,115,0,
+-17)bab.Size=UDim2.new(0,5,0,400)
+bab.Font=Enum.Font.SourceSans;bab.FontSize=Enum.FontSize.Size14;bab.Text=""bab.TextSize=14
+cab.Name="MainPage"cab.Parent=_ab;cab.BackgroundColor3=Color3.new(1,1,1)
+cab.BorderColor3=Color3.new(0.992157,0.266667,0.282353)cab.BorderSizePixel=3;cab.Position=UDim2.new(0,120,0,0)
+cab.Size=UDim2.new(0,350,0,365)cab.Visible=false;dab.Name="header"dab.Parent=cab;dab.Active=true
+dab.BackgroundColor3=Color3.new(1,1,1)dab.BackgroundTransparency=1;dab.BorderSizePixel=0
+dab.Position=UDim2.new(0,60,0,5)dab.Size=UDim2.new(0,200,0,50)
+dab.Font=Enum.Font.SourceSansLight;dab.FontSize=Enum.FontSize.Size18
+dab.Text="Thanks for using Physic!"dab.TextSize=18;_bb.Name="header"_bb.Parent=cab;_bb.Active=true
+_bb.BackgroundColor3=Color3.new(1,1,1)_bb.BackgroundTransparency=1;_bb.BorderSizePixel=0
+_bb.Position=UDim2.new(0,60,0,50)_bb.Size=UDim2.new(0,200,0,50)
+_bb.Font=Enum.Font.SourceSansItalic;_bb.FontSize=Enum.FontSize.Size18
+_bb.Text="Current Version: 0.1 Public"_bb.TextSize=18;abb.Name="credits"abb.Parent=cab;abb.Active=true
+abb.BackgroundColor3=Color3.new(1,1,1)abb.BackgroundTransparency=1;abb.BorderSizePixel=0
+abb.Position=UDim2.new(0,60,0,90)abb.Size=UDim2.new(0,200,0,200)
+abb.Font=Enum.Font.SourceSansLight;abb.FontSize=Enum.FontSize.Size24
+abb.Text="Credits - Future Flash for developing and founding Physic\n\nThank you everyone for your support."abb.TextSize=24;abb.TextWrapped=true;bbb.Name="ThemeButton"bbb.Parent=_ab
+bbb.BackgroundColor3=Color3.new(1,1,1)bbb.Position=UDim2.new(0,0,0,75)
+bbb.Size=UDim2.new(0,100,0,50)bbb.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+bbb.Font=Enum.Font.SourceSans;bbb.FontSize=Enum.FontSize.Size14;bbb.Text="Theme Switch"
+bbb.TextSize=14
+bbb.MouseButton1Down:connect(function()cab.Visible=false;cbb.Visible=false
+dbc.Visible=false;_db.Visible=true;__c.Visible=false end)cbb.Name="Script"cbb.Parent=_ab
+cbb.BackgroundColor3=Color3.new(1,1,1)
+cbb.BorderColor3=Color3.new(0.992157,0.266667,0.282353)cbb.BorderSizePixel=3;cbb.Position=UDim2.new(0,120,0,0)
+cbb.Size=UDim2.new(0,350,0,365)cbb.Visible=false;dbb.Name="header"dbb.Parent=cbb;dbb.Active=true
+dbb.BackgroundColor3=Color3.new(1,1,1)dbb.BackgroundTransparency=1;dbb.BorderSizePixel=0
+dbb.Position=UDim2.new(0,-17,0,5)dbb.Size=UDim2.new(0,390,0,45)
+dbb.Font=Enum.Font.SourceSansLight;dbb.FontSize=Enum.FontSize.Size28
+dbb.Text="Script Execution - 10K Characters"dbb.TextSize=28;dbb.TextWrapped=true;_cb.Parent=cbb
+_cb.BackgroundColor3=Color3.new(0,0,0)
+_cb.BorderColor3=Color3.new(0.105882,0.164706,0.207843)_cb.Position=UDim2.new(0,30,0,320)
+_cb.Size=UDim2.new(0,80,0,30)_cb.ZIndex=10;_cb.Font=Enum.Font.SourceSansLight
+_cb.FontSize=Enum.FontSize.Size28;_cb.Text="Execute"_cb.TextColor3=Color3.new(1,1,1)
+_cb.TextSize=28
+_cb.MouseButton1Click:connect(function()loadstring(bcb.Text)()end)
+ccb.MouseButton1Click:connect(function()bcb.Text=""end)acb.Parent=cbb;acb.BackgroundColor3=Color3.new(1,1,1)
+acb.Position=UDim2.new(0,30,0,55)acb.Size=UDim2.new(0,300,0,250)bcb.Parent=acb
+bcb.BackgroundColor3=Color3.new(0.6,0.4,1)bcb.BackgroundTransparency=1
+bcb.BorderColor3=Color3.new(0.105882,0.164706,0.207843)bcb.Size=UDim2.new(0.949999988,0,1,0)bcb.ZIndex=10
+bcb.ClearTextOnFocus=false;bcb.Font=Enum.Font.SourceSansLight
+bcb.FontSize=Enum.FontSize.Size18;bcb.MultiLine=true;bcb.Text=""
+bcb.TextColor3=Color3.new(0.105882,0.164706,0.207843)bcb.TextSize=18;bcb.TextWrapped=true
+bcb.TextXAlignment=Enum.TextXAlignment.Left;bcb.TextYAlignment=Enum.TextYAlignment.Top;ccb.Parent=cbb
+ccb.BackgroundColor3=Color3.new(0,0,0)
+ccb.BorderColor3=Color3.new(0.105882,0.164706,0.207843)ccb.Position=UDim2.new(0,250,0,320)
+ccb.Size=UDim2.new(0,80,0,30)ccb.ZIndex=10;ccb.Font=Enum.Font.SourceSansLight
+ccb.FontSize=Enum.FontSize.Size28;ccb.Text="Clear"ccb.TextColor3=Color3.new(1,1,1)
+ccb.TextSize=28;dcb.Name="ExecuteButton"dcb.Parent=_ab
+dcb.BackgroundColor3=Color3.new(1,1,1)dcb.Position=UDim2.new(0,0,0,135)
+dcb.Size=UDim2.new(0,100,0,50)dcb.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+dcb.Font=Enum.Font.SourceSans;dcb.FontSize=Enum.FontSize.Size18;dcb.Text="LocalPlayer"
+dcb.TextSize=18
+dcb.MouseButton1Down:connect(function()cab.Visible=false;cbb.Visible=false
+dbc.Visible=false;_db.Visible=false;__c.Visible=true end)_db.Name="Theme"_db.Parent=_ab
+_db.BackgroundColor3=Color3.new(1,1,1)
+_db.BorderColor3=Color3.new(0.992157,0.266667,0.282353)_db.BorderSizePixel=3;_db.Position=UDim2.new(0,120,0,0)
+_db.Size=UDim2.new(0,350,0,365)_db.Visible=false;adb.Name="header"adb.Parent=_db;adb.Active=true
+adb.BackgroundColor3=Color3.new(1,1,1)adb.BackgroundTransparency=1;adb.BorderSizePixel=0
+adb.Position=UDim2.new(0,0,0,5)adb.Size=UDim2.new(0,100,0,50)
+adb.Font=Enum.Font.SourceSansLight;adb.FontSize=Enum.FontSize.Size28;adb.Text="Theme"
+adb.TextSize=28;bdb.Name="MainPageButton"bdb.Parent=_db
+bdb.BackgroundColor3=Color3.new(1,1,1)bdb.Position=UDim2.new(0,10,0,60)
+bdb.Size=UDim2.new(0,100,0,50)bdb.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+bdb.Font=Enum.Font.SourceSansLight;bdb.FontSize=Enum.FontSize.Size18;bdb.Text="ChatGreen"
+bdb.TextSize=18;cdb.Name="MainPageButton"cdb.Parent=_db
+cdb.BackgroundColor3=Color3.new(1,1,1)cdb.Position=UDim2.new(0,10,0,115)
+cdb.Size=UDim2.new(0,100,0,50)cdb.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+cdb.Font=Enum.Font.SourceSansLight;cdb.FontSize=Enum.FontSize.Size18;cdb.Text="ChatBlue"
+cdb.TextSize=18;ddb.Name="MainPageButton"ddb.Parent=_db
+ddb.BackgroundColor3=Color3.new(1,1,1)ddb.Position=UDim2.new(0,10,0,170)
+ddb.Size=UDim2.new(0,100,0,60)ddb.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+ddb.Font=Enum.Font.SourceSansLight;ddb.FontSize=Enum.FontSize.Size18;ddb.Text="ChatRed (Default)"
+ddb.TextSize=18;ddb.TextWrapped=true
+ddb.MouseButton1Down:connect(function()_db.BorderColor3=Color3.new(253 /255,68 /255,
+72 /255)cab.BorderColor3=Color3.new(253 /255,
+68 /255,72 /255)__c.BorderColor3=Color3.new(
+253 /255,68 /255,72 /255)bab.BackgroundColor3=Color3.new(
+253 /255,68 /255,72 /255)cbb.BorderColor3=Color3.new(
+253 /255,68 /255,72 /255)dbc.BorderColor3=Color3.new(
+253 /255,68 /255,72 /255)
+_ab.Style='ChatRed'end)
+cdb.MouseButton1Down:connect(function()
+_db.BorderColor3=Color3.new(90 /255,142 /255,233 /255)
+cab.BorderColor3=Color3.new(90 /255,142 /255,233 /255)
+__c.BorderColor3=Color3.new(90 /255,142 /255,233 /255)
+bab.BackgroundColor3=Color3.new(90 /255,142 /255,233 /255)
+cbb.BorderColor3=Color3.new(90 /255,142 /255,233 /255)
+dbc.BorderColor3=Color3.new(90 /255,142 /255,233 /255)_ab.Style='ChatBlue'end)
+bdb.MouseButton1Down:connect(function()
+_db.BorderColor3=Color3.new(26 /255,176 /255,92 /255)
+cab.BorderColor3=Color3.new(26 /255,176 /255,92 /255)
+__c.BorderColor3=Color3.new(26 /255,176 /255,92 /255)
+bab.BackgroundColor3=Color3.new(26 /255,176 /255,92 /255)
+cbb.BorderColor3=Color3.new(26 /255,176 /255,92 /255)
+dbc.BorderColor3=Color3.new(26 /255,176 /255,92 /255)_ab.Style='ChatGreen'end)__c.Name="Execute"__c.Parent=_ab
+__c.BackgroundColor3=Color3.new(1,1,1)
+__c.BorderColor3=Color3.new(0.992157,0.266667,0.282353)__c.BorderSizePixel=3;__c.Position=UDim2.new(0,120,0,0)
+__c.Size=UDim2.new(0,350,0,365)__c.Visible=false;a_c.Name="header"a_c.Parent=__c;a_c.Active=true
+a_c.BackgroundColor3=Color3.new(1,1,1)a_c.BackgroundTransparency=1;a_c.BorderSizePixel=0
+a_c.Position=UDim2.new(0,0,0,5)a_c.Size=UDim2.new(0,150,0,45)
+a_c.Font=Enum.Font.SourceSansLight;a_c.FontSize=Enum.FontSize.Size28;a_c.Text="Commands"
+a_c.TextSize=28;a_c.TextWrapped=true;b_c.Name="Button"b_c.Parent=__c
+b_c.BackgroundColor3=Color3.new(1,1,1)b_c.Position=UDim2.new(0,10,0,50)
+b_c.Size=UDim2.new(0,100,0,50)b_c.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+b_c.Font=Enum.Font.SourceSansLight;b_c.FontSize=Enum.FontSize.Size18;b_c.Text="FF"b_c.TextSize=18
+b_c.MouseButton1Down:connect(function()
+Instance.new("ForceField",game.Players.LocalPlayer.Character)end)c_c.Name="Button"c_c.Parent=__c
+c_c.BackgroundColor3=Color3.new(1,1,1)c_c.Position=UDim2.new(0,10,0,110)
+c_c.Size=UDim2.new(0,100,0,50)c_c.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+c_c.Font=Enum.Font.SourceSansLight;c_c.FontSize=Enum.FontSize.Size18;c_c.Text="WalkSpeed"
+c_c.TextSize=18
+c_c.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=200 end)d_c.Name="Button"d_c.Parent=__c
+d_c.BackgroundColor3=Color3.new(1,1,1)d_c.Position=UDim2.new(0,10,0,230)
+d_c.Size=UDim2.new(0,100,0,60)d_c.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+d_c.Font=Enum.Font.SourceSansLight;d_c.FontSize=Enum.FontSize.Size18;d_c.Text="FreezeR15"
+d_c.TextSize=18;d_c.TextWrapped=true
+d_c.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.UpperTorso.Anchored=true end)_ac.Name="Button"_ac.Parent=__c
+_ac.BackgroundColor3=Color3.new(1,1,1)_ac.Position=UDim2.new(0,10,0,165)
+_ac.Size=UDim2.new(0,100,0,60)_ac.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+_ac.Font=Enum.Font.SourceSansLight;_ac.FontSize=Enum.FontSize.Size18;_ac.Text="HighJump"
+_ac.TextSize=18;_ac.TextWrapped=true
+_ac.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower=200 end)aac.Name="Button"aac.Parent=__c
+aac.BackgroundColor3=Color3.new(1,1,1)aac.Position=UDim2.new(0,10,0,295)
+aac.Size=UDim2.new(0,100,0,60)aac.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+aac.Font=Enum.Font.SourceSansLight;aac.FontSize=Enum.FontSize.Size18;aac.Text="FreezeR6"
+aac.TextSize=18;aac.TextWrapped=true
+aac.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Torso.Anchored=true end)bac.Name="Button2"bac.Parent=__c
+bac.BackgroundColor3=Color3.new(1,1,1)bac.Position=UDim2.new(0,135,0,165)
+bac.Size=UDim2.new(0,100,0,60)bac.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+bac.Font=Enum.Font.SourceSansLight;bac.FontSize=Enum.FontSize.Size18;bac.Text="God"bac.TextSize=18
+bac.TextWrapped=true
+bac.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.MaxHealth=math.huge end)cac.Name="Button2"cac.Parent=__c
+cac.BackgroundColor3=Color3.new(1,1,1)cac.Position=UDim2.new(0,135,0,230)
+cac.Size=UDim2.new(0,100,0,60)cac.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+cac.Font=Enum.Font.SourceSansLight;cac.FontSize=Enum.FontSize.Size18;cac.Text="SmokeFire"
+cac.TextSize=18;cac.TextWrapped=true
+cac.MouseButton1Down:connect(function()
+Instance.new("Fire",game.Players.LocalPlayer.Character.Torso)
+Instance.new("Smoke",game.Players.LocalPlayer.Character.Torso)end)dac.Name="Button2"dac.Parent=__c
+dac.BackgroundColor3=Color3.new(1,1,1)dac.Position=UDim2.new(0,135,0,110)
+dac.Size=UDim2.new(0,100,0,50)dac.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+dac.Font=Enum.Font.SourceSansLight;dac.FontSize=Enum.FontSize.Size18;dac.Text="ThawR6"
+dac.TextSize=18
+dac.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Torso.Anchored=false end)_bc.Name="Button2"_bc.Parent=__c
+_bc.BackgroundColor3=Color3.new(1,1,1)_bc.Position=UDim2.new(0,135,0,50)
+_bc.Size=UDim2.new(0,100,0,50)_bc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+_bc.Font=Enum.Font.SourceSansLight;_bc.FontSize=Enum.FontSize.Size18;_bc.Text="ThawR15"
+_bc.TextSize=18
+_bc.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.UpperTorso.Anchored=false end)abc.Name="Button2"abc.Parent=__c
+abc.BackgroundColor3=Color3.new(1,1,1)abc.Position=UDim2.new(0,135,0,295)
+abc.Size=UDim2.new(0,100,0,60)abc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+abc.Font=Enum.Font.SourceSansLight;abc.FontSize=Enum.FontSize.Size18;abc.Text="BTools"
+abc.TextSize=18;abc.TextWrapped=true
+abc.MouseButton1Down:connect(function()
+local bad=Instance.new("HopperBin")bad.BinType="GameTool"
+bad.Parent=game.Players.LocalPlayer.Backpack;local cad=Instance.new("HopperBin")cad.BinType="Clone"
+cad.Parent=game.Players.LocalPlayer.Backpack;local dad=Instance.new("HopperBin")dad.BinType="Hammer"
+dad.Parent=game.Players.LocalPlayer.Backpack end)bbc.Name="header2"bbc.Parent=__c;bbc.Active=true
+bbc.BackgroundColor3=Color3.new(1,1,1)bbc.BackgroundTransparency=1;bbc.BorderSizePixel=0
+bbc.Position=UDim2.new(0,240,0,60)bbc.Size=UDim2.new(0,100,0,245)
+bbc.Font=Enum.Font.SourceSansItalic;bbc.FontSize=Enum.FontSize.Size28;bbc.Text="P\nH\nY\nS\nI\nC"
+bbc.TextSize=28;bbc.TextWrapped=true;cbc.Name="ScriptButton"cbc.Parent=_ab
+cbc.BackgroundColor3=Color3.new(1,1,1)cbc.Position=UDim2.new(0,0,0,195)
+cbc.Size=UDim2.new(0,100,0,50)cbc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+cbc.Font=Enum.Font.SourceSans;cbc.FontSize=Enum.FontSize.Size18;cbc.Text="Executor"
+cbc.TextSize=18
+cbc.MouseButton1Down:connect(function()cab.Visible=false;cbb.Visible=true
+dbc.Visible=false;_db.Visible=false;__c.Visible=false end)dbc.Name="Scripts"dbc.Parent=_ab
+dbc.BackgroundColor3=Color3.new(1,1,1)
+dbc.BorderColor3=Color3.new(0.992157,0.266667,0.282353)dbc.BorderSizePixel=3;dbc.Position=UDim2.new(0,120,0,0)
+dbc.Size=UDim2.new(0,350,0,365)dbc.Visible=false;_cc.Name="header"_cc.Parent=dbc;_cc.Active=true
+_cc.BackgroundColor3=Color3.new(1,1,1)_cc.BackgroundTransparency=1;_cc.BorderSizePixel=0
+_cc.Position=UDim2.new(0,0,0,5)_cc.Size=UDim2.new(0,120,0,45)
+_cc.Font=Enum.Font.SourceSansLight;_cc.FontSize=Enum.FontSize.Size28;_cc.Text="Scripts"
+_cc.TextSize=28;_cc.TextWrapped=true;acc.Name="Button1"acc.Parent=dbc
+acc.BackgroundColor3=Color3.new(0,0,0)
+acc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)acc.Position=UDim2.new(0,10,0,60)
+acc.Size=UDim2.new(0,100,0,50)acc.ZIndex=10
+acc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;acc.Font=Enum.Font.SourceSansLight
+acc.FontSize=Enum.FontSize.Size18;acc.Text="Grab Knife"acc.TextColor3=Color3.new(0,0,0)
+acc.TextSize=18
+acc.MouseButton1Down:connect(function()me=game.Players.LocalPlayer
+char=me.Character;selected=false;attacking=false;hurt=false;grabbed=nil;mode="kill"
+bloodcolors={"Bright red","Really red","Crimson"}enabled=true;enabled2=true;local bad=Instance.new("Sound")
+bad.SoundId="http://www.roblox.com/asset/?id=2801263"bad.Parent=game.Workspace;bad.Volume=0.8
+local cad=Instance.new("Sound")cad.SoundId="http://www.roblox.com/asset?id=16950449"cad.Pitch=0.65
+cad.Parent=game.Workspace;local dad=Instance.new("Sound")
+dad.SoundId="http://www.roblox.com/asset/?id=2785493"dad.Pitch=0.7
+function prop(abd,bbd,cbd,dbd,_cd,acd,bcd,ccd,dcd,_dd,add)abd.Parent=bbd;abd.formFactor=add;abd.CanCollide=cbd
+abd.Transparency=dbd;abd.Reflectance=_cd;abd.Size=Vector3.new(acd,bcd,ccd)
+abd.BrickColor=BrickColor.new(dcd)abd.TopSurface=0;abd.BottomSurface=0;abd.Anchored=_dd;abd.Locked=true
+abd:BreakJoints()end
+function weld(abd,bbd,cbd,dbd,_cd,acd,bcd,ccd,dcd)abd.Parent=bbd;abd.Part0=bbd;abd.Part1=cbd
+abd.C1=
+CFrame.fromEulerAnglesXYZ(dbd,_cd,acd)*CFrame.new(bcd,ccd,dcd)end;function mesh(abd,bbd,cbd,dbd,_cd,acd)abd.Parent=bbd;abd.Scale=Vector3.new(cbd,dbd,_cd)
+abd.MeshType=acd end;function remgui()
+for abd,bbd in
+pairs(me.PlayerGui:GetChildren())do if bbd.Name=="Modeshow"then bbd:remove()end end end
+function inform(abd,bbd)remgui()
+local cbd=Instance.new("ScreenGui")cbd.Parent=me.PlayerGui;cbd.Name="Modeshow"
+local dbd=Instance.new("Frame",cbd)dbd.BackgroundColor3=Color3.new(1,1,1)
+dbd.Size=UDim2.new(0.94,0,0.1,0)dbd.Position=UDim2.new(0.03,0,0.037,0)dbd.BorderSizePixel=0
+local _cd=Instance.new("TextLabel",cbd)_cd.Size=UDim2.new(0.92,0,0.09,0)
+_cd.BackgroundColor3=Color3.new(0,0,0)_cd.Position=UDim2.new(0.04,0,0.042,0)
+_cd.TextColor3=Color3.new(1,1,1)_cd.FontSize="Size14"_cd.Text=abd
+coroutine.resume(coroutine.create(function()wait(bbd)
+cbd:remove()end))end;if char:findFirstChild("Bricks",true)then
+char:findFirstChild("Bricks",true):remove()end
+bricks=Instance.new("Model",me.Character)bricks.Name="Bricks"
+rarm=char:findFirstChild("Right Arm")larm=char:findFirstChild("Left Arm")
+lleg=char:findFirstChild("Left Leg")torso=char:findFirstChild("Torso")
+hum=char:findFirstChild("Humanoid")rleg=char:findFirstChild("Right Leg")
+righthold=Instance.new("Part")
+prop(righthold,bricks,false,1,0,0.1,0.1,0.1,"Mid gray",false,"Custom")w11=Instance.new("Weld")
+weld(w11,rarm,righthold,0,0,0,0,1,0)lefthold=Instance.new("Part")
+prop(lefthold,bricks,false,1,0,0.1,0.1,0.1,"Mid gray",false,"Custom")w12=Instance.new("Weld")
+weld(w12,larm,lefthold,0,0,0,0,1,0)hold=Instance.new("Part")
+prop(hold,bricks,false,0,0,0.2,0.3,0.3,"Black",false,"Custom")oh=Instance.new("Weld")
+weld(oh,torso,hold,-math.pi/-0.86,1.5,math.rad(0),
+-0.35,-0.4,-0.5)knife=Instance.new("Part")knife.Material="Wood"
+prop(knife,bricks,false,0,0,0.25,1.1,0.3,"Pine Cone",false,"Custom")orr=Instance.new("Weld")
+weld(orr,hold,knife,0,0,0,0,0.7,0)ar=Instance.new("Weld")
+weld(ar,lefthold,nil,math.pi/2,0,math.pi,0,0,0)blade=Instance.new("Part")blade.Material="Neon"
+prop(blade,bricks,false,0,0,0.1,2.5,0.25,"Mid gray",false,"Custom")
+Instance.new("BlockMesh",blade).Scale=Vector3.new(0.3,1,1)w2=Instance.new("Weld")
+weld(w2,knife,blade,0,0,0,0,-0.65,0)blade2=Instance.new("Part")blade2.Material="Neon"
+prop(blade2,bricks,false,0,0,0.1,0.4,0.25,"Mid gray",false,"Custom")local _bd=Instance.new("SpecialMesh",blade2)
+_bd.MeshType="Wedge"_bd.Scale=Vector3.new(0.3,1,1)
+w3=Instance.new("Weld")weld(w3,blade,blade2,0,0,0,0,-1.45,0)
+rb=Instance.new("Part")
+prop(rb,bricks,false,1,0,0.1,0.1,0.1,"Bright red",false,"Custom")w13=Instance.new("Weld")
+weld(w13,torso,rb,0,0,0,-1.5,-0.5,0)lb=Instance.new("Part")
+prop(lb,bricks,false,1,0,0.1,0.1,0.1,"Bright red",false,"Custom")w14=Instance.new("Weld")
+weld(w14,torso,lb,0,0,0,1.5,-0.5,0)rw=Instance.new("Weld")weld(rw,rb,nil,0,0,0,0,0.5,0)
+lw=Instance.new("Weld")weld(lw,lb,nil,0,0,0,0,0.5,0)grabweld=nil;platlol=nil;lolhum=nil
+function touch(abd)
+if hurt then
+if
+grabbed==nil then local bbd=abd.Parent:findFirstChild("Humanoid")
+local cbd=abd.Parent:findFirstChild("Head")local dbd=abd.Parent:findFirstChild("Torso")
+if
+bbd~=nil and
+cbd~=nil and dbd~=nil and abd.Parent.Name~=name then
+if bbd.Health>0 then grabbed=dbd;bbd.PlatformStand=true
+local _cd=Instance.new("Weld")
+weld(_cd,righthold,grabbed,math.pi/2,0.2,0,0.7,-0.9,-0.6)grabweld=_cd;lolhum=bbd;local acd=true;platlol=acd
+bbd.Changed:connect(function(bcd)
+if
+bcd=="PlatformStand"and platlol then bbd.PlatformStand=true end end)end end end end end;righthold.Touched:connect(touch)
+lefthold.Touched:connect(touch)
+function bleed(abd,bbd)local cbd=math.random(5,30)/100
+local dbd=math.random(5,30)/100;local _cd=math.random(5,30)/100
+local acd=math.random(1,#bloodcolors)local bcd=Instance.new("Part")
+prop(bcd,abd.Parent,false,0,0,cbd,dbd,_cd,bloodcolors[acd],false,"Custom")bcd.CFrame=abd.CFrame*
+CFrame.new(math.random(-5,5)/10,bbd,math.random(-5,5)/10)
+bcd.Velocity=Vector3.new(math.random(
+-25,25),math.random(-25,25),math.random(-25,25))
+bcd.RotVelocity=Vector3.new(math.random(-400,400)/10,
+math.random(-400,400)/10,math.random(-400,400)/10)bcd.CanCollide=true
+coroutine.resume(coroutine.create(function()wait(3)bcd:remove()end))end;h=Instance.new("HopperBin",me.Backpack)h.Name="Knife"
+script.Parent=h;bin=h
+function select(abd)orr.Part1=nil;ar.Part1=knife
+abd.Button1Down:connect(function()
+if attacking==false then
+attacking=true;lw.Part1=larm;rw.Part1=rarm;hurt=true
+for i=1,8 do
+rw.C0=
+rw.C0 *CFrame.new(-0.03,0,-0.08)*CFrame.fromEulerAnglesXYZ(0.18,0.04,0)
+lw.C0=lw.C0 *CFrame.new(0.06,0,-0.06)*
+CFrame.fromEulerAnglesXYZ(0.15,-0.11,-0.05)wait()end;wait(1)hurt=false
+if grabbed==nil then
+for i=1,4 do
+rw.C0=
+rw.C0 *CFrame.new(0.06,0,0.16)*CFrame.fromEulerAnglesXYZ(-0.36,-0.08,0)
+lw.C0=lw.C0 *CFrame.new(-0.12,0,0.12)*
+CFrame.fromEulerAnglesXYZ(-0.3,0.22,0.05)wait()end;lw.C0=CFrame.new(0,0,0)rw.C0=CFrame.new(0,0,0)
+lw.Part1=nil;rw.Part1=nil;attacking=false end elseif hurt==false and grabbed~=nil and mode=="drop"then
+enabled2=true;grabweld:remove()grabweld=nil;platlol=false;grabbed=nil
+lolhum.PlatformStand=false;lolhum=nil
+for i=1,4 do
+rw.C0=rw.C0 *CFrame.new(0.06,0,0.16)*CFrame.fromEulerAnglesXYZ(-0.36,
+-0.08,0)lw.C0=lw.C0 *CFrame.new(-0.12,0,0.16)*
+CFrame.fromEulerAnglesXYZ(-0.3,0.2,0)
+wait()end;lw.C0=CFrame.new(0,0,0)rw.C0=CFrame.new(0,0,0)
+lw.Part1=nil;rw.Part1=nil;attacking=false;platlol=nil elseif hurt==false and grabbed~=nil and
+grabweld~=nil and mode=="para"and
+enabled2 ==true then enabled2=false
+enabled=false;bad.Parent=grabbed;bad:Play()for i=1,5 do
+lw.C0=
+lw.C0 *CFrame.new(0.02,0.15,-0.02)*CFrame.fromEulerAnglesXYZ(-0.05,0,-0.03)wait()end;local bbd=grabbed
+bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)
+bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)bleed(bbd,1)
+wait(0.12)for i=1,5 do
+lw.C0=lw.C0 *CFrame.new(-0.02,-0.15,0.02)*CFrame.fromEulerAnglesXYZ(0.05,
+-0,0.03)wait()end;if
+grabbed.Parent:findFirstChild("HumanoidRootPart",true)then
+grabbed.Parent.HumanoidRootPart:Remove()end;grabbed.Parent.Humanoid.Health=
+grabbed.Parent.Humanoid.Health/1.5 elseif
+
+hurt==false and grabbed~=nil and grabweld~=nil and mode=="drain"and enabled==true then enabled=false
+enabled2=true;for i=1,2 do
+lw.C0=lw.C0 *CFrame.new(0.06,0,-0.06)*
+CFrame.fromEulerAnglesXYZ(0.15,-0.11,-0.05)wait()end
+while
+char.Humanoid.Health==char.Humanoid.MaxHealth do bleed(grabbed,1)char.Humanoid.Health=
+char.Humanoid.Health+1;grabbed.Parent.Humanoid.Health=
+grabbed.Parent.Humanoid.Health-1;wait(0.0335)end;for i=1,1 do
+lw.C0=lw.C0 *CFrame.new(-0.12,0,0.12)*
+CFrame.fromEulerAnglesXYZ(-0.3,0.22,0.05)wait()end;enabled=true elseif
+
+hurt==false and grabbed~=nil and grabweld~=nil and mode=="throw"then enabled2=true;grabweld:remove()grabweld=nil
+local bbd=Instance.new("BodyForce",grabbed)bbd.force=torso.CFrame.lookVector*4000;bbd.force=bbd.force+
+Vector3.new(0,1500,0)
+coroutine.resume(coroutine.create(function()
+wait(0.12)bbd:remove()end))
+for i=1,6 do
+rw.C0=rw.C0 *CFrame.new(0,0,0)*CFrame.fromEulerAnglesXYZ(0.35,0,0)lw.C0=lw.C0 *CFrame.new(0,0,0)*
+CFrame.fromEulerAnglesXYZ(-0.18,0,0)wait()end
+for i=1,4 do rw.C0=rw.C0 *CFrame.new(0,0,0)*
+CFrame.fromEulerAnglesXYZ(-0.47,0,0)
+lw.C0=lw.C0 *
+CFrame.new(0,0,0)*CFrame.fromEulerAnglesXYZ(0.2,0,0)wait()end;wait(0.2)platlol=false;grabbed=nil;lolhum.PlatformStand=false;lolhum=nil
+for i=1,4 do
+rw.C0=
+rw.C0 *CFrame.new(0.06,0,0.16)*
+CFrame.fromEulerAnglesXYZ(-0.36,-0.08,0)lw.C0=lw.C0 *CFrame.new(-0.12,0,0.16)*
+CFrame.fromEulerAnglesXYZ(-0.3,0.2,0)
+wait()end;lw.C0=CFrame.new(0,0,0)rw.C0=CFrame.new(0,0,0)
+lw.Part1=nil;rw.Part1=nil;attacking=false;platlol=nil elseif hurt==false and grabbed~=nil and
+lolhum~=nil and grabweld~=nil and mode==
+"kill"then enabled2=true
+cad.Parent=grabbed;cad:Play()for i=1,5 do
+lw.C0=lw.C0 *CFrame.new(0.02,0.12,0.1)*CFrame.fromEulerAnglesXYZ(
+-0.05,0,-0.03)wait()end
+local bbd=grabbed:findFirstChild("Neck")
+coroutine.resume(coroutine.create(function()local cbd=grabbed;local dbd=grabbed.Parent.Head
+local _cd=lolhum
+cbd.RotVelocity=Vector3.new(math.random(-20,20),math.random(-20,20),math.random(-20,20))
+for i=1,75 do wait()local acd=math.random(1,15)
+pcall(function()if acd==1 then dbd.Sound.Pitch=
+math.random(90,110)/100;dbd.Sound:play()
+script.Parent.Splat:Play()end end)
+if acd>0 and acd<4 then bleed(cbd,1)bleed(dbd,-0.1)bleed(cbd,1)bleed(dbd,
+-0.1)bleed(cbd,1)bleed(cbd,1)bleed(cbd,1)end end;wait(1.2)_cd.Health=0
+for i=1,85 do wait()local acd=math.random(1,9)
+pcall(function()
+if acd==1 then dbd.Sound.Pitch=
+math.random(90,110)/100;dbd.Sound:play()end end)
+if acd>0 and acd<3 then bleed(cbd,1)bleed(dbd,-0.5)end end end))
+for i=1,3 do
+lw.C0=lw.C0 *CFrame.new(0.02,0.12,0.1)*
+CFrame.fromEulerAnglesXYZ(-0.05,0,-0.03)
+if bbd~=nil then grabbed.Neck.C0=grabbed.Neck.C0 *
+CFrame.fromEulerAnglesXYZ(-0.35,0,0)end;wait()end;grabweld:remove()grabweld=nil;for i=1,4 do
+lw.C0=lw.C0 *
+CFrame.new(-0.04,-0.24,-0.2)*CFrame.fromEulerAnglesXYZ(0.1,0,0.06)wait()end
+for i=1,4 do
+rw.C0=rw.C0 *
+CFrame.new(0.06,0,0.16)*CFrame.fromEulerAnglesXYZ(-0.36,-0.08,0)
+lw.C0=lw.C0 *CFrame.new(-0.12,0,0.12)*
+CFrame.fromEulerAnglesXYZ(-0.3,0.22,0.05)wait()end;lw.C0=CFrame.new(0,0,0)rw.C0=CFrame.new(0,0,0)
+lw.Part1=nil;rw.Part1=nil;platlol=false;grabbed=nil;lolhum=nil;attacking=false;platlol=nil end end)
+abd.KeyDown:connect(function(bbd)key=bbd:lower()
+if key=="q"then mode="drop"
+inform("Release",1)elseif key=="e"then mode="throw"inform("Push",1)elseif key=="f"then mode="kill"
+inform("Kill",1)elseif key=="c"then mode="para"inform("Paralyze",1)elseif key=="x"then mode="drain"
+inform("Drain",1)end end)end
+function desel()repeat wait()until attacking==false;orr.Part1=knife;ar.Part1=nil end;bin.Selected:connect(select)
+bin.Deselected:connect(desel)
+char.Humanoid.Died:connect(function()
+pcall(function()grabweld:remove()grabweld=nil;grabbed=
+nil;platlol=false;platlol=nil end)end)inform("Knife Aquired",2)end)bcc.Name="Button1"bcc.Parent=dbc
+bcc.BackgroundColor3=Color3.new(0,0,0)
+bcc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)bcc.Position=UDim2.new(0,10,0,120)
+bcc.Size=UDim2.new(0,100,0,50)bcc.ZIndex=10
+bcc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;bcc.Font=Enum.Font.SourceSansLight
+bcc.FontSize=Enum.FontSize.Size18;bcc.Text="Chop Chop"bcc.TextColor3=Color3.new(0,0,0)
+bcc.TextSize=18
+bcc.MouseButton1Down:connect(function()local bad=game.Players.LocalPlayer
+local cad=bad.Character;repeat wait()until bad and cad;local dad=cad.Torso;local _bd=cad.Head
+local abd=cad.Humanoid
+local bbd={Left=cad["Left Arm"],Right=cad["Right Arm"]}
+local cbd={Left=cad["Left Leg"],Right=cad["Right Leg"]}local dbd=function(b_aa)
+coroutine.resume(coroutine.create(b_aa))end;local _cd=function(b_aa)
+pcall(b_aa)end
+local acd={Part=function(b_aa,c_aa,d_aa,_aaa,aaaa,baaa,caaa,daaa)
+local _baa=Instance.new("Part",b_aa)
+pcall(function()_baa.TopSurface="Smooth"_baa.BottomSurface="Smooth"
+_baa.formFactor="Custom"_baa.Anchored=c_aa;_baa.CanCollide=d_aa
+_baa.BrickColor=BrickColor.new(_aaa)_baa.Transparency=aaaa;_baa.Size=baaa
+_baa.CFrame=caaa or CFrame.new()end)local abaa=Instance.new("BlockMesh",_baa)
+pcall(function()abaa.Scale=daaa or
+Vector3.new(1,1,1)end)return _baa end,Wedge=function(b_aa,c_aa,d_aa,_aaa,aaaa,baaa,caaa,daaa)
+local _baa=Instance.new("WedgePart",b_aa)
+pcall(function()_baa.TopSurface="Smooth"_baa.BottomSurface="Smooth"
+_baa.formFactor="Custom"_baa.Anchored=c_aa;_baa.CanCollide=d_aa
+_baa.BrickColor=BrickColor.new(_aaa)_baa.Transparency=aaaa;_baa.Size=baaa
+_baa.CFrame=caaa or CFrame.new()end)local abaa=Instance.new("SpecialMesh",_baa)
+pcall(function()abaa.Scale=daaa or
+Vector3.new(1,1,1)abaa.MeshType="Wedge"end)return _baa end,Gui=function(b_aa,c_aa,d_aa,_aaa,aaaa,baaa,caaa,daaa,_baa,abaa)
+local bbaa=Instance.new(b_aa,c_aa)
+pcall(function()bbaa.BorderColor=BrickColor.new(d_aa)
+bbaa.BackgroundColor=BrickColor.new(_aaa)bbaa.TextColor=BrickColor.new(aaaa)bbaa.FontSize=baaa
+bbaa.Font="ArialBold"bbaa.Text=caaa;bbaa.Transparency=daaa;bbaa.Size=_baa;bbaa.Position=abaa end)return bbaa end,Weld=function(b_aa,c_aa,d_aa)
+local _aaa=Instance.new("Weld",b_aa)
+pcall(function()_aaa.Part0=_aaa.Parent or b_aa;_aaa.Part1=c_aa;_aaa.C1=d_aa or
+CFrame.new()end)return _aaa end,Mesh=function(b_aa,c_aa,d_aa,_aaa,aaaa)
+local baaa=Instance.new(b_aa,c_aa)
+pcall(function()baaa.Scale=d_aa or Vector3.new()baaa.Offset=_aaa or
+Vector3.new()baaa.MeshType=aaaa end)return baaa end,Sound=function(b_aa,c_aa,d_aa,_aaa)
+local aaaa=Instance.new("Sound",b_aa)
+pcall(function()aaaa.SoundId=c_aa;aaaa.Volume=d_aa;aaaa.Pitch=_aaa end)return aaaa end}local bcd="Chop-Chop"
+pcall(function()bad.Backpack[bcd]:remove()
+cad[bcd]:remove()cad["Objects"]:remove()
+bad.PlayerGui[bcd]:remove()end)local ccd=Instance.new("Model",cad)ccd.Name="Objects"
+local dcd=Instance.new("Model",cad)dcd.Name=bcd
+local _dd=Instance.new("ScreenGui",bad.PlayerGui)_dd.Name=bcd
+local add=Instance.new("HopperBin",bad.Backpack)add.Name=bcd;local bdd="Really black"local cdd={}local ddd={}local ___a={}local a__a=false;local b__a=false
+local c__a=false;local d__a=false;local _a_a=false;local aa_a=0;local ba_a=100;local ca_a=20
+local da_a=math.random(10,25)local _b_a=false;local ab_a;local bb_a=.5;local cb_a=16;local db_a;local _c_a=.8
+local ac_a=acd.Sound(dad,"rbxasset://sounds//swordslash.wav",1,_c_a)
+local bc_a=acd.Sound(dad,"http://roblox.com/asset/?id=10209668",1,1)
+local cc_a=acd.Sound(dad,"http://www.roblox.com/asset/?id=2101137",1,.5)
+local dc_a=acd.Gui("TextLabel",_dd,"Really black","White","Really black","Size14",ba_a,0,UDim2.new(0,200,0,20),UDim2.new(0,0,0,100))
+local _d_a=acd.Gui("TextLabel",dc_a,"Really black","Bright blue","Really black","Size14","",0.5,UDim2.new(1,0,1,0),UDim2.new(0,0,0,0))
+local ad_a=acd.Gui("TextLabel",_dd,"Really black","Really black","White","Size18","Festival(Hold(Q))",0,UDim2.new(0,150,0,50),UDim2.new(0,0,0,150))
+local bd_a=acd.Gui("TextLabel",ad_a,"Really black","Really black","White","Size18","Charge(F)",0,UDim2.new(1,0,1,0),UDim2.new(0,0,1,0))
+local cd_a=acd.Gui("TextLabel",bd_a,"Really black","Really black","White","Size18","Tornado(E)",0,UDim2.new(1,0,1,0),UDim2.new(0,0,1,0))
+local dd_a=acd.Gui("TextLabel",cd_a,"Really black","Really black","White","Size18","ChibiForm(C)",0,UDim2.new(1,0,1,0),UDim2.new(0,0,1,0))
+local __aa=acd.Gui("TextLabel",dd_a,"Really black","Really black","White","Size18","CarForm(V)",0,UDim2.new(1,0,1,0),UDim2.new(0,0,1,0))
+function createParts()
+cdd.Head=acd.Part(ccd,false,false,bdd,1,Vector3.new(1,1,1),nil)
+cdd.Torso=acd.Part(ccd,false,false,bdd,1,Vector3.new(2,2,1),nil)
+cdd.ArmLeft,cdd.ArmRight=acd.Part(ccd,false,false,bdd,1,Vector3.new(1,1,1),nil),acd.Part(ccd,false,false,bdd,1,Vector3.new(1,1,1),
+nil)
+cdd.LegLeft,cdd.LegRight=acd.Part(ccd,false,false,bdd,1,Vector3.new(1,1,1),nil),acd.Part(ccd,false,false,bdd,1,Vector3.new(1,1,1),
+nil)
+cdd.HeadW=acd.Weld(cdd.Head,cdd.Torso,CFrame.new(0,1.5,0))cdd.TorsoW=acd.Weld(cdd.Torso,dad,nil)
+cdd.ArmLeftW,cdd.ArmRightW=acd.Weld(cdd.ArmLeft,cdd.Torso,CFrame.new(
+-1.5,.5,0)),acd.Weld(cdd.ArmRight,cdd.Torso,CFrame.new(1.5,.5,0))
+cdd.LegLeftW,cdd.LegRightW=acd.Weld(cdd.LegLeft,cdd.Torso,CFrame.new(-.5,-1.5,0)),acd.Weld(cdd.LegRight,cdd.Torso,CFrame.new(.5,
+-1.5,0))acd.Weld(cdd.Head,_bd,nil)
+acd.Weld(bbd.Left,cdd.ArmLeft,CFrame.new(0,-.5,0))
+acd.Weld(bbd.Right,cdd.ArmRight,CFrame.new(0,-.5,0))dad["Left Hip"].Part0=dad
+dad["Right Hip"].Part0=dad
+ddd={["Head"]=function(b_aa)cdd.HeadW.C1=CFrame.new(0,1.5,0)*b_aa end,["Torso"]=function(b_aa)
+cdd.Torso.Transparency=0;dad.Transparency=1;cdd.TorsoW.C1=b_aa
+dbd(function()wait(0)
+cdd.Torso.Transparency=1;dad.Transparency=0 end)end,["ArmLeft"]=function(b_aa)cdd.ArmLeftW.C1=CFrame.new(
+-1.5,.5,0)*b_aa end,["ArmRight"]=function(b_aa)cdd.ArmRightW.C1=
+CFrame.new(1.5,.5,0)*b_aa end,["LegLeft"]=function(b_aa)legLeftW=acd.Weld(cbd.Left,cdd.LegLeft,CFrame.new(0,
+-.5,0))cdd.LegLeftW.C1=CFrame.new(
+-.5,-1.5,0)*b_aa;dbd(function()wait(0)
+legLeftW:remove()end)end,["LegRight"]=function(b_aa)legRightW=acd.Weld(cbd.Right,cdd.LegRight,CFrame.new(0,
+-.5,0))cdd.LegRightW.C1=CFrame.new(.5,
+-1.5,0)*b_aa;dbd(function()wait(0)
+legRightW:remove()end)end}end
+function removeParts()
+_cd(function()if dad then dad["Left Hip"].Part0=dad
+dad["Right Hip"].Part0=dad end;for b_aa,c_aa in pairs(ccd:children())do
+c_aa:remove()end;for b_aa,c_aa in pairs(dcd:children())do
+c_aa:remove()end;for b_aa,c_aa in pairs(cad:children())do
+c_aa.Transparency=0 end;wait()dad.Transparency=0 end)end
+function hit(b_aa)
+if c__a==true then
+if
+b_aa.Parent~=cad and b_aa.Parent:findFirstChild("Humanoid")and b__a==false then b__a=true
+local c_aa=b_aa.Parent:findFirstChild("Humanoid")c_aa.Health=c_aa.Health-da_a
+local d_aa=Instance.new("Model",workspace)d_aa.Name=da_a;local _aaa=Instance.new("Humanoid",d_aa)
+_aaa.MaxHealth=0;_aaa.Health=0
+local aaaa=acd.Part(d_aa,false,false,"Bright red",0,Vector3.new(1,1,1),b_aa.CFrame)aaaa.Name="Head"
+local baaa=acd.Mesh("CylinderMesh",aaaa,Vector3.new(1,.5,1),nil,nil)local caaa=Instance.new("BodyPosition",aaaa)
+caaa.maxForce=Vector3.new(math.huge,math.huge,math.huge)
+caaa.position=b_aa.Position+Vector3.new(0,4,0)game.Debris:addItem(d_aa,2)wait(.5)b__a=false end end end
+function running()
+if _b_a==false then cb_a=16;ddd.Torso(CFrame.new())
+ddd.Head(CFrame.new())
+ddd.ArmLeft(CFrame.Angles(-math.rad(15),0,-math.rad(15)))
+ddd.ArmRight(CFrame.Angles(-math.rad(15),0,math.rad(15)))elseif _b_a==true and Form=="Chibi"then cb_a=16;bc_a:play()
+ddd.Torso(CFrame.new(0,-1.5,0))wait()dad.Transparency=1
+ddd.ArmLeft(CFrame.new(.5,0,0)*CFrame.Angles(0,0,-
+math.rad(45)))
+ddd.ArmRight(CFrame.new(-.5,0,0)*CFrame.Angles(0,0,math.rad(45)))elseif _b_a==true and Form=="Car"then cb_a=100;bc_a:play()
+abd.WalkSpeed=cb_a
+ddd.Torso(CFrame.new(0,-2,0)*CFrame.Angles(-math.rad(90),0,0))
+ddd.Head(CFrame.new(0,-1.5,1)*CFrame.Angles(math.rad(90),0,0))
+ddd.ArmLeft(CFrame.new(.5,0,0)*
+CFrame.Angles(math.rad(180),0,math.rad(15)))
+ddd.ArmRight(CFrame.new(-.5,0,0)*
+CFrame.Angles(math.rad(180),0,-math.rad(15)))db_a=Instance.new("Model",cad)db_a.Name="Car"
+local b_aa=acd.Part(db_a,false,true,"Medium stone grey",0,Vector3.new(.5,7.2,.5),
+nil)
+local c_aa=acd.Mesh("CylinderMesh",b_aa,Vector3.new(1,1,1),nil,nil)
+local d_aa=acd.Weld(b_aa,cdd.Torso,CFrame.new(0,2,0)*
+CFrame.Angles(0,0,-math.rad(90)))
+local _aaa=acd.Part(db_a,false,true,"Really black",0,Vector3.new(2,1,2),nil)
+TireLeftM=acd.Mesh("CylinderMesh",_aaa,Vector3.new(1,1,1),nil,nil)
+TireLeftW=acd.Weld(_aaa,b_aa,CFrame.new(0,-3,0))
+local aaaa=acd.Part(db_a,false,true,"Really black",0,Vector3.new(2,1,2),nil)
+TireRightM=acd.Mesh("CylinderMesh",aaaa,Vector3.new(1,1,1),nil,nil)TireRightW=acd.Weld(aaaa,b_aa,CFrame.new(0,3,0))
+local baaa=acd.Part(db_a,false,true,"Medium stone grey",0,Vector3.new(.5,7.2,.5),
+nil)
+local caaa=acd.Mesh("CylinderMesh",baaa,Vector3.new(1,1,1),nil,nil)
+local daaa=acd.Weld(baaa,cdd.Torso,CFrame.new(0,-2,0)*
+CFrame.Angles(0,0,-math.rad(90)))
+local _baa=acd.Part(db_a,false,true,"Really black",0,Vector3.new(2,1,2),nil)
+TireLeftM=acd.Mesh("CylinderMesh",_baa,Vector3.new(1,1,1),nil,nil)
+TireLeftW=acd.Weld(_baa,baaa,CFrame.new(0,-3,0))
+local abaa=acd.Part(db_a,false,true,"Really black",0,Vector3.new(2,1,2),nil)
+TireRightM=acd.Mesh("CylinderMesh",abaa,Vector3.new(1,1,1),nil,nil)TireRightW=acd.Weld(abaa,baaa,CFrame.new(0,3,0))
+dbd(function()
+while
+_b_a do wait()
+ddd.Torso(CFrame.new(0,-2,0)*
+CFrame.Angles(-math.rad(90),0,0))ddd.LegLeft(CFrame.Angles(0,0,0))
+ddd.LegRight(CFrame.Angles(0,0,0))end;ddd.Torso(CFrame.new())
+ddd.Head(CFrame.new())db_a:remove()end)end;abd.WalkSpeed=cb_a end;function computePos(b_aa,c_aa)local d_aa=Vector3.new(c_aa.x,b_aa.y,c_aa.z)
+dad.CFrame=CFrame.new(b_aa,d_aa)return d_aa end
+function nearTorso(b_aa,c_aa)
+local d_aa;local _aaa=c_aa
+for aaaa,baaa in pairs(workspace:children())do
+if baaa:isA("Model")then
+d_aa=baaa:findFirstChild("Torso")local caaa=baaa:findFirstChild("Humanoid")
+if
+
+d_aa and caaa and baaa~=cad and(d_aa.CFrame.p-b_aa).magnitude<_aaa then _aaa=(d_aa.CFrame.p-b_aa).magnitude;return d_aa end end end end
+function trail(b_aa,c_aa)
+dbd(function()local d_aa=(b_aa.CFrame*c_aa).p
+while a__a==true do wait()
+local _aaa=(b_aa.CFrame*c_aa).p;local aaaa=(d_aa-_aaa).magnitude;local baaa=(d_aa+_aaa)/2
+local caaa=acd.Part(workspace,true,false,"White",0,Vector3.new(.5,aaaa,.5),
+CFrame.new(baaa,_aaa)*CFrame.Angles(math.pi/2,0,0))caaa.Name="Trail"
+local daaa=acd.Mesh("CylinderMesh",caaa,Vector3.new(.5,1,.5),nil,nil)caaa.Touched:connect(hit)d_aa=_aaa
+dbd(function()
+for i=1,0,-.1 do wait()daaa.Scale=
+daaa.Scale*Vector3.new(i,1,i)end;caaa:remove()end)
+dbd(function()for i=0,1,.1 do wait()caaa.Transparency=i end end)end end)end
+function Attack()aa_a=aa_a+1
+if c__a==false then
+if _b_a==false and d__a==false then c__a=true;for b_aa,c_aa in
+pairs(cad:children())do
+if c_aa:isA("BasePart")then c_aa.Touched:connect(hit)end end
+if aa_a==1 then ac_a:play()
+print("Right Hook")a__a=true
+trail(cdd.ArmRight,CFrame.new(0,-1.5,0))for i=0,1,.1 do wait()
+ddd.Torso(CFrame.Angles(0,math.rad(15)*i,0))
+ddd.ArmRight(CFrame.new(-.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end;for i=1,0,-.1
+do wait()
+ddd.Torso(CFrame.Angles(0,math.rad(15)*i,0))
+ddd.ArmRight(CFrame.new(-.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end
+a__a=false
+if aa_a>2 then ac_a:play()a__a=true
+trail(cdd.ArmLeft,CFrame.new(0,-1.5,0))for i=0,1,.1 do wait()
+ddd.Torso(CFrame.Angles(0,-math.rad(15)*i,0))
+ddd.ArmLeft(CFrame.new(.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end;for i=1,0,-.1
+do wait()
+ddd.Torso(CFrame.Angles(0,-math.rad(15)*i,0))
+ddd.ArmLeft(CFrame.new(.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end
+a__a=false end
+if aa_a>3 then ac_a:play()print("Both Hook")a__a=true
+for i=0,1,.1 do wait()
+ddd.ArmLeft(CFrame.new(
+.5 *i,0,-ca_a*i)*CFrame.Angles(math.rad(90),0,0))
+ddd.ArmRight(CFrame.new(-.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end
+for i=1,0,-.1 do wait()
+ddd.ArmLeft(CFrame.new(.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))
+ddd.ArmRight(CFrame.new(-.5 *i,0,-ca_a*i)*
+CFrame.Angles(math.rad(90),0,0))end;a__a=false end
+if aa_a>4 then print("Rappid Punch")a__a=true
+for i=1,2 do wait()
+for i=0,1,.2 do wait()
+ac_a:play()
+ddd.ArmLeft(
+CFrame.new(math.random(-2,2),math.random(-2,2),-ca_a*i)*CFrame.Angles(math.rad(90),0,0))
+ddd.ArmRight(
+CFrame.new(math.random(-2,2),math.random(-2,2),-ca_a- (-ca_a*i))*CFrame.Angles(math.rad(90),0,0))end
+for i=0,1,.2 do wait()
+ddd.ArmLeft(
+CFrame.new(math.random(-2,2),math.random(-2,2),-ca_a- (-ca_a*i))*CFrame.Angles(math.rad(90),0,0))
+ddd.ArmRight(
+CFrame.new(math.random(-2,2),math.random(-2,2),-ca_a*i)*CFrame.Angles(math.rad(90),0,0))end end;a__a=false end end;a__a=false;ddd.ArmLeft(CFrame.Angles(0,0,0))
+ddd.ArmRight(CFrame.Angles(0,0,0))c__a=false;aa_a=0;running()end end end
+local a_aa={["Festival"]=function()abd.WalkSpeed=0;_a_a=true
+for i=0,1,.1 do wait()
+ddd.ArmLeft(CFrame.Angles(0,0,
+-math.rad(135)*i))
+ddd.ArmRight(CFrame.Angles(0,0,math.rad(135)*i))
+ddd.LegLeft(CFrame.Angles(0,0,-math.rad(45)*i))
+ddd.LegRight(CFrame.Angles(0,0,math.rad(45)*i))end;a__a=true
+trail(cdd.ArmLeft,CFrame.new(0,-1.5,0))trail(cdd.ArmRight,CFrame.new(0,-1.5,0))trail(cdd.LegLeft,CFrame.new(0,
+-1.5,0))
+trail(cdd.LegRight,CFrame.new(0,-1.5,0))
+while _a_a and ba_a>=1 do wait()ba_a=ba_a-1;ac_a:play()
+pcall(function()
+local b_aa=acd.Part(workspace,true,false,"White",1,Vector3.new(
+ca_a*1.5,ca_a*1.5,ca_a*1.5),dad.CFrame)b_aa.Touched:connect(hit)dbd(function()wait(1)
+b_aa:remove()end)end)
+for b_aa,c_aa in pairs(cad:children())do if c_aa.ClassName=="Hat"then
+pcall(function()
+c_aa.Handle.Transparency=1;dad.Transparency=1;_bd.Transparency=1 end)end;pcall(function()
+c_aa.face.Transparency=1 end)end
+ddd.ArmLeft(CFrame.new(math.random(-ca_a,ca_a),math.random(-ca_a,ca_a),math.random(-
+ca_a,ca_a))*
+CFrame.Angles(math.random(
+-ca_a,ca_a),math.random(-45,45),math.random(-45,45)))
+ddd.ArmRight(CFrame.new(math.random(-ca_a,ca_a),math.random(-ca_a,ca_a),math.random(-
+ca_a,ca_a))*
+CFrame.Angles(math.random(
+-ca_a,ca_a),math.random(-45,45),math.random(-45,45)))
+ddd.LegLeft(CFrame.new(math.random(-ca_a,ca_a),math.random(-ca_a,ca_a),math.random(-
+ca_a,ca_a))*
+CFrame.Angles(math.random(
+-ca_a,ca_a),math.random(-45,45),math.random(-45,45)))
+ddd.LegRight(CFrame.new(math.random(-ca_a,ca_a),math.random(-ca_a,ca_a),math.random(-
+ca_a,ca_a))*
+CFrame.Angles(math.random(
+-ca_a,ca_a),math.random(-45,45),math.random(-45,45)))end;a__a=false
+for b_aa,c_aa in pairs(cad:children())do if c_aa.ClassName=="Hat"then
+pcall(function()
+c_aa.Handle.Transparency=0;dad.Transparency=0;_bd.Transparency=0 end)end;pcall(function()
+c_aa.face.Transparency=0 end)end
+for i=1,0,-.1 do wait()
+ddd.ArmLeft(CFrame.Angles(0,0,-math.rad(135)*i))
+ddd.ArmRight(CFrame.Angles(0,0,math.rad(135)*i))
+ddd.LegLeft(CFrame.Angles(0,0,-math.rad(45)*i))
+ddd.LegRight(CFrame.Angles(0,0,math.rad(45)*i))end;running()abd.WalkSpeed=cb_a end,["Charge"]=function()
+abd.WalkSpeed=0;_a_a=true;for i=0,1,.1 do wait()
+ddd.ArmLeft(CFrame.Angles(-math.rad(15)*i,0,-
+math.rad(15)*i))
+ddd.ArmRight(CFrame.Angles(math.rad(135)*i,0,math.rad(15)*i))end
+cc_a:play()
+while _a_a do wait()if ba_a<100 then ba_a=ba_a+1 end
+local b_aa=acd.Part(workspace,true,false,"Bright blue",.5,Vector3.new(1,1,1),
+dad.CFrame*CFrame.new(0,-2,0)*
+CFrame.Angles(0,math.rad(math.random(-45,45)),0))b_aa.Name="Effect"
+local c_aa=acd.Mesh("SpecialMesh",b_aa,Vector3.new(1,1,1),nil,"File")c_aa.MeshId="http://www.roblox.com/asset/?id=20329976"
+dbd(function()
+for i=0,3,.1 do wait()c_aa.Scale=
+c_aa.Scale+Vector3.new(i,i/2,i)end
+dbd(function()for i=.5,1,.1 do wait()b_aa.Transparency=i end end)b_aa:remove()end)end
+for i=1,0,-.1 do wait()
+ddd.ArmLeft(CFrame.Angles(-math.rad(15)*i,0,
+-math.rad(15)*i))
+ddd.ArmRight(CFrame.Angles(math.rad(135)*i,0,-math.rad(15)*i))end;running()abd.WalkSpeed=cb_a end,["Tornado"]=function()
+abd.WalkSpeed=0;ba_a=ba_a-20
+for i=0,1,.1 do wait()
+ddd.ArmLeft(CFrame.Angles(0,0,-math.rad(90)*i))
+ddd.ArmRight(CFrame.Angles(0,0,math.rad(90)*i))ddd.LegLeft(CFrame.new())
+ddd.LegRight(CFrame.new())end;a__a=true
+trail(cdd.ArmLeft,CFrame.new(0,-1.5,0))trail(cdd.ArmRight,CFrame.new(0,-1.5,0))
+for i=1,50 do
+wait()ac_a:play()
+ddd.Torso(CFrame.Angles(0,math.rad(45)*i,0))
+ddd.ArmLeft(CFrame.new(-i,i/25,0)*
+CFrame.Angles(0,0,-math.rad(90)))
+ddd.ArmRight(CFrame.new(i,i/25,0)*CFrame.Angles(0,0,math.rad(90)))ddd.LegLeft(CFrame.new())
+ddd.LegRight(CFrame.new())end
+for i=50,0,-1 do wait()ac_a:play()
+ddd.Torso(CFrame.Angles(0,math.rad(45)*i,0))
+ddd.ArmLeft(CFrame.new(-i,i/25,0)*
+CFrame.Angles(0,0,-math.rad(90)))
+ddd.ArmRight(CFrame.new(i,i/25,0)*CFrame.Angles(0,0,math.rad(90)))ddd.LegLeft(CFrame.new())
+ddd.LegRight(CFrame.new())end;a__a=false;for i=1,0,-.1 do wait()
+ddd.ArmLeft(CFrame.Angles(0,0,-math.rad(90)*i))
+ddd.ArmRight(CFrame.Angles(0,0,math.rad(90)*i))end
+abd.WalkSpeed=cb_a end}
+add.Selected:connect(function(b_aa)createParts()running()
+b_aa.Button1Down:connect(Attack)
+b_aa.KeyDown:connect(function(c_aa)local d_aa=c_aa:lower()
+if
+_b_a==false and c__a==false then if d_aa=="q"and ba_a>=0 and d__a==false then d__a=true;c__a=true
+a_aa.Festival()d__a=false;c__a=false end;if
+d_aa=="e"and d__a==false and ba_a>=20 then d__a=true;c__a=true
+a_aa.Tornado()d__a=false;c__a=false end
+if
+d_aa=="f"and d__a==false then d__a=true;a_aa.Charge()d__a=false end end
+if d_aa=="c"and d__a==false and _b_a==false then d__a=true
+_b_a=true;Form="Chibi"running()d__a=false elseif
+d_aa=="c"and d__a==false and _b_a==true then d__a=true;_b_a=false;Form=nil;running()d__a=false end
+if d_aa=="v"and d__a==false and _b_a==false then d__a=true
+_b_a=true;Form="Car"running()d__a=false elseif
+d_aa=="v"and d__a==false and _b_a==true then d__a=true;_b_a=false;Form=nil;running()
+pcall(function()db_a:remove()end)d__a=false end end)
+b_aa.KeyUp:connect(function(c_aa)if _b_a==false then if c_aa=="q"then _a_a=false end;if c_aa=="f"then
+_a_a=false end end end)
+while wait()do _d_a.Size=UDim2.new(ba_a/100,0,1,0)dc_a.Text=ba_a end end)
+add.Deselected:connect(function()removeParts()end)end)ccc.Name="Button1"ccc.Parent=dbc
+ccc.BackgroundColor3=Color3.new(0,0,0)
+ccc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)ccc.Position=UDim2.new(0,10,0,180)
+ccc.Size=UDim2.new(0,100,0,50)ccc.ZIndex=10
+ccc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;ccc.Font=Enum.Font.SourceSansLight
+ccc.FontSize=Enum.FontSize.Size18;ccc.Text="Dex V1"ccc.TextColor3=Color3.new(0,0,0)
+ccc.TextSize=18
+ccc.MouseButton1Down:connect(function()
+function startup()
+local function bad(cbd)
+local dbd="coroutine.resume(coroutine.create(function()\n"dbd=dbd..cbd.."\n"dbd=dbd.."end))\n"return dbd end
+local cad=game:GetObjects("rbxassetid://418955355")[1]
+cad.ExplorerPanel.LocalScript.Source=string.gsub(cad.ExplorerPanel.LocalScript.Source,"script.Parent","game.CoreGui.Dex.ExplorerPanel")
+cad.PropertiesFrame.Properties.Source=string.gsub(cad.PropertiesFrame.Properties.Source,"script.Parent.Parent","game.CoreGui.Dex")
+cad.Selection.Source=string.gsub(cad.Selection.Source,"script.Parent","game.CoreGui.Dex")
+cad.ScriptEditor.LocalScript.Source=string.gsub(cad.ScriptEditor.LocalScript.Source,"script.Parent","game.CoreGui.Dex.ScriptEditor")cad.Parent=game.CoreGui
+local dad=bad(cad.ExplorerPanel.LocalScript.Source)
+local _bd=bad(cad.PropertiesFrame.Properties.Source)local abd=bad(cad.Selection.Source)
+local bbd=bad(cad.ScriptEditor.LocalScript.Source)
+loadstring(dad.._bd..abd..bbd)()end;startup()end)dcc.Name="Button1"dcc.Parent=dbc
+dcc.BackgroundColor3=Color3.new(0,0,0)
+dcc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)dcc.Position=UDim2.new(0,10,0,240)
+dcc.Size=UDim2.new(0,100,0,50)dcc.ZIndex=10
+dcc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;dcc.Font=Enum.Font.SourceSansLight
+dcc.FontSize=Enum.FontSize.Size18;dcc.Text="Shooter"dcc.TextColor3=Color3.new(0,0,0)
+dcc.TextSize=18
+dcc.MouseButton1Down:connect(function()o1=Instance.new("Model")
+o1.Name="Vest"o2=Instance.new("Part")o2.Name="Middle"o2.Parent=o1
+o2.BrickColor=BrickColor.new("Brick yellow")o2.Transparency=1
+o2.Position=Vector3.new(0.139906004,1.05800402,-11.1099901)o2.Anchored=true
+o2.CFrame=CFrame.new(0.139906004,1.05800402,-11.1099901,1,0,0,0,1,0,0,0,1)o2.CanCollide=false;o2.FormFactor=Enum.FormFactor.Symmetric
+o2.Size=Vector3.new(2,2,1)o2.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o2.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o2.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o2.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o2.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o2.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o2.Color=Color3.new(0.843137,0.772549,0.603922)
+o3=Instance.new("Part")o3.Name="Pack"o3.Parent=o1
+o3.BrickColor=BrickColor.new("Dark stone grey")
+o3.Position=Vector3.new(0.139907002,1.07000601,-10.3049936)o3.Rotation=Vector3.new(-180,0,-180)o3.Anchored=true
+o3.CFrame=CFrame.new(0.139907002,1.07000601,
+-10.3049936,-1,0,0,0,1,0,0,0,-1)o3.CanCollide=false;o3.FormFactor=Enum.FormFactor.Custom
+o3.Size=Vector3.new(1.65999985,1.80000019,0.630000472)o3.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o3.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o3.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o3.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o3.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o3.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o3.Color=Color3.new(0.388235,0.372549,0.384314)
+o4=Instance.new("Part")o4.Name="Strap"o4.Parent=o1
+o4.BrickColor=BrickColor.new("Black")
+o4.Position=Vector3.new(0.66991502,1.05500698,-11.1149797)o4.Anchored=true
+o4.CFrame=CFrame.new(0.66991502,1.05500698,-11.1149797,1,0,0,0,1,0,0,0,1)o4.CanCollide=false;o4.FormFactor=Enum.FormFactor.Custom
+o4.Size=Vector3.new(0.259999752,2.11000037,1.15000045)o4.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o4.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o4.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o4.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o4.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o4.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o4.Color=Color3.new(0.105882,0.164706,0.207843)
+o5=Instance.new("Part")o5.Name="Flap"o5.Parent=o1
+o5.BrickColor=BrickColor.new("Black")
+o5.Position=Vector3.new(0.139905006,1.85000098,-10.2900219)o5.Anchored=true
+o5.CFrame=CFrame.new(0.139905006,1.85000098,-10.2900219,1,0,0,0,1,0,0,0,1)o5.CanCollide=false;o5.FormFactor=Enum.FormFactor.Custom
+o5.Size=Vector3.new(1.71999979,0.400000006,0.639999866)o5.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o5.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o5.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o5.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o5.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o5.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o5.Color=Color3.new(0.105882,0.164706,0.207843)
+o6=Instance.new("Part")o6.Name="Pocket"o6.Parent=o1
+o6.BrickColor=BrickColor.new("Black")
+o6.Position=Vector3.new(0.149883002,0.860005975,-10.0399857)o6.Rotation=Vector3.new(-0,0,-90)o6.Anchored=true
+o6.CFrame=CFrame.new(0.149883002,0.860005975,
+-10.0399857,0,1,0,-1,0,0,0,0,1)o6.CanCollide=false;o6.FormFactor=Enum.FormFactor.Custom
+o6.Size=Vector3.new(0.600000024,0.800000131,0.200000003)o6.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o6.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o6.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o6.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o6.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o6.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o6.Color=Color3.new(0.105882,0.164706,0.207843)
+o7=Instance.new("Part")o7.Name="Pocket"o7.Parent=o1
+o7.BrickColor=BrickColor.new("Black")
+o7.Position=Vector3.new(0.139600992,1.10000801,-10.3099718)o7.Rotation=Vector3.new(-90,90,0)o7.Anchored=true
+o7.CFrame=CFrame.new(0.139600992,1.10000801,
+-10.3099718,0,0,1,-1,0,0,0,-1,0)o7.CanCollide=false;o7.FormFactor=Enum.FormFactor.Custom
+o7.Size=Vector3.new(0.600000024,0.400000155,1.70000005)o7.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o7.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o7.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o7.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o7.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o7.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o7.Color=Color3.new(0.105882,0.164706,0.207843)
+o8=Instance.new("Part")o8.Name="Strap"o8.Parent=o1
+o8.BrickColor=BrickColor.new("Black")
+o8.Position=Vector3.new(-0.37014699,1.05500698,-11.1149921)o8.Anchored=true
+o8.CFrame=CFrame.new(-0.37014699,1.05500698,-11.1149921,1,0,0,0,1,0,0,0,1)o8.CanCollide=false;o8.FormFactor=Enum.FormFactor.Custom
+o8.Size=Vector3.new(0.259999752,2.11000037,1.15000045)o8.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o8.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o8.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o8.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o8.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o8.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o8.Color=Color3.new(0.105882,0.164706,0.207843)
+o9=Instance.new("Part")o9.Parent=o1
+o9.BrickColor=BrickColor.new("Really black")o9.Reflectance=0.10000000149012
+o9.Position=Vector3.new(0.173590899,4.00173569,-9.98207664)
+o9.Rotation=Vector3.new(2.9181666e-009,-3.48279983e-008,-8.55249798e-019)o9.Anchored=true
+o9.CFrame=CFrame.new(0.173590899,4.00173569,-9.98207664,0.999998331,1.49269007e-020,-6.07863204e-010,1.49269007e-020,1,
+-5.09317831e-011,-6.07863204e-010,-5.09317831e-011,1.00000334)o9.FormFactor=Enum.FormFactor.Plate
+o9.Size=Vector3.new(2,4.80000019,2)o9.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o9.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o9.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o9.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o9.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o9.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o9.Color=Color3.new(0.0666667,0.0666667,0.0666667)
+o10=Instance.new("SpecialMesh")o10.Parent=o9
+o10.Scale=Vector3.new(0.600000024,1,0.600000024)o10.MeshType=Enum.MeshType.Brick
+o11=Instance.new("Part")o11.Parent=o1;o11.BrickColor=BrickColor.new("Mid gray")
+o11.Reflectance=0.20000000298023
+o11.Position=Vector3.new(0.173592806,4.10173273,-11.1821489)o11.Rotation=Vector3.new(-180,89.8953247,-90)
+o11.Anchored=true
+o11.CFrame=CFrame.new(0.173592806,4.10173273,-11.1821489,-1.49269007e-020,6.07863204e-010,0.999998331,-1,5.09317831e-011,1.49269007e-020,5.09317831e-011,
+-1.00000334,-6.07863204e-010)o11.FormFactor=Enum.FormFactor.Plate
+o11.Size=Vector3.new(1,0.400000006,2)o11.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o11.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o11.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o11.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o11.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o11.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o11.Color=Color3.new(0.803922,0.803922,0.803922)
+o12=Instance.new("CylinderMesh")o12.Parent=o11
+o12.Offset=Vector3.new(0,-0.600000024,0)o12.Scale=Vector3.new(0.5,0.100000001,0.5)
+o13=Instance.new("Part")o13.Parent=o1;o13.BrickColor=BrickColor.new("Mid gray")
+o13.Reflectance=0.20000000298023
+o13.Position=Vector3.new(0.173592806,5.60169125,-11.1821489)
+o13.Rotation=Vector3.new(1.40697509e-009,-89.8953247,-90)o13.Anchored=true
+o13.CFrame=CFrame.new(0.173592806,5.60169125,-11.1821489,1.49269007e-020,6.07863204e-010,-0.999998331,1,5.09317831e-011,
+-1.49269007e-020,-5.09317831e-011,-1.00000334,6.07863204e-010)o13.FormFactor=Enum.FormFactor.Plate
+o13.Size=Vector3.new(2,0.400000006,2)o13.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o13.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o13.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o13.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o13.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o13.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o13.Color=Color3.new(0.803922,0.803922,0.803922)
+o14=Instance.new("CylinderMesh")o14.Parent=o13
+o14.Offset=Vector3.new(0,-0.600000024,0)o14.Scale=Vector3.new(0.5,0.100000001,0.5)
+o15=Instance.new("Part")o15.Parent=o1;o15.BrickColor=BrickColor.new("Mid gray")
+o15.Reflectance=0.20000000298023
+o15.Position=Vector3.new(0.173592806,2.60173273,-11.1821489)o15.Rotation=Vector3.new(-180,89.8953247,-90)
+o15.Anchored=true
+o15.CFrame=CFrame.new(0.173592806,2.60173273,-11.1821489,-1.49269007e-020,6.07863204e-010,0.999998331,-1,5.09317831e-011,1.49269007e-020,5.09317831e-011,
+-1.00000334,-6.07863204e-010)o15.FormFactor=Enum.FormFactor.Plate
+o15.Size=Vector3.new(2,0.400000006,2)o15.BackSurface=Enum.SurfaceType.SmoothNoOutlines
+o15.BottomSurface=Enum.SurfaceType.SmoothNoOutlines;o15.FrontSurface=Enum.SurfaceType.SmoothNoOutlines
+o15.LeftSurface=Enum.SurfaceType.SmoothNoOutlines;o15.RightSurface=Enum.SurfaceType.SmoothNoOutlines
+o15.TopSurface=Enum.SurfaceType.SmoothNoOutlines;o15.Color=Color3.new(0.803922,0.803922,0.803922)
+o16=Instance.new("CylinderMesh")o16.Parent=o15
+o16.Offset=Vector3.new(0,-0.600000024,0)o16.Scale=Vector3.new(0.5,0.100000001,0.5)
+myears=Instance.new('Sound')
+myears.Parent=game.Players.LocalPlayer.Character.Head;myears.Looped=true;myears.Name="Ruski"myears.Playing=true
+myears.SoundId="rbxassetid://341851020"myears.Volume=.5;myears.TimePosition=0;local bad=o1:clone()
+bad.Parent=game.Players.LocalPlayer.Character;local cad=bad:GetChildren()
+for i=1,#cad do
+if cad[i].className=="Part"then
+local db_a=Instance.new("Weld")db_a.Part0=bad.Middle;db_a.Part1=cad[i]
+local _c_a=CFrame.new(bad.Middle.Position)
+local ac_a=bad.Middle.CFrame:inverse()*_c_a;local bc_a=cad[i].CFrame:inverse()*_c_a
+db_a.C0=ac_a;db_a.C1=bc_a;db_a.Parent=bad.Middle end;local cb_a=Instance.new("Weld")
+cb_a.Part0=game.Players.LocalPlayer.Character.Torso;cb_a.Part1=bad.Middle;cb_a.C0=CFrame.new(0,0,0)
+cb_a.Parent=cb_a.Part0 end;local dad=bad:GetChildren()for i=1,#dad do dad[i].Anchored=false
+dad[i].CanCollide=false end;debounce=0
+local _bd=game.Players.LocalPlayer;repeat wait()until _bd.Character.Humanoid
+local abd=_bd.Character.Humanoid;local bbd=_bd:GetMouse()local cbd=game.Players.LocalPlayer
+local dbd=game.Players.LocalPlayer.Character;local _cd=cbd.Character.Humanoid
+Tool=Instance.new('Tool',game.Players.LocalPlayer.Backpack)Tool.GripRight=Vector3.new(0.865,0.105,-0.49)Tool.GripUp=Vector3.new(
+-0.023,0.985,0.171)
+Tool.GripPos=Vector3.new(0.064,-0.3,0.9)Tool.GripForward=Vector3.new(0.485,0.14,-0.863)
+Tool.Name='Tec 9'Handle=Instance.new('Part',Tool)Handle.Name='Handle'
+Handle.BrickColor=BrickColor.new('Really black')Handle.Size=Vector3.new(0.26,1.11,4.85)Handle.Position=Vector3.new(
+-5.112,1.837,-3.734)
+gunfire=Instance.new('Part',Tool)gunfire.Name='GunFire'
+gunfire.Size=Vector3.new(0.2,0.2,0.2)gunfire.Transparency=1
+gunfire.Position=Vector3.new(-5.142,2.582,-5.059)gunfirefx=Instance.new('BillboardGui',gunfire)
+gunfirefx.Enabled=false;gunfirefx.Adornee=gunfire
+gunfirefx.Size=UDim2.new(1.1,0,1.1,0)gunfirefx2=Instance.new('ImageLabel',gunfirefx)
+gunfirefx2.Image='http://www.roblox.com/asset/?id=117472237'gunfirefx2.BackgroundTransparency=1
+gunfirefx2.Size=UDim2.new(1.2,0,1.2,0)c4mesh=Instance.new('SpecialMesh',Handle)
+c4mesh.MeshType='FileMesh'c4mesh.MeshId='http://www.roblox.com/asset/?id=430355386'
+c4mesh.TextureId='http://www.roblox.com/asset/?id=430355390'c4mesh.Scale=Vector3.new(0.075,0.075,0.075)
+light=Instance.new('PointLight',Handle)light.Color=Color3.new(255,255,0)light.Range=10
+light.Enabled=false;local acd;local bcd=Tool:GetChildren()
+for i=1,#bcd do
+if(bcd[i].className=="Part")then
+if
+(acd~=nil)then local cb_a=Instance.new("Weld")cb_a.Part0=acd;cb_a.Part1=bcd[i]
+cb_a.C0=acd.CFrame:inverse()cb_a.C1=bcd[i].CFrame:inverse()cb_a.Parent=acd end;acd=bcd[i]end end;local ccd=Instance.new("Animation",cbd.Character)
+ccd.AnimationId="http://www.roblox.com/asset?id=168086975"local dcd=_cd:LoadAnimation(ccd)
+local _dd=Instance.new("Animation",cbd.Character)_dd.AnimationId="http://www.roblox.com/asset?id=95383474"
+local add=_cd:LoadAnimation(_dd)local bdd=Instance.new("Animation",cbd.Character)
+bdd.AnimationId="http://www.roblox.com/asset?id=95383474"local cdd=_cd:LoadAnimation(ccd)standed=true
+local ddd=Instance.new("Animation",cbd.Character)ddd.AnimationId="http://www.roblox.com/Asset?ID=94332152"
+local ___a=_cd:LoadAnimation(ddd)local a__a=Instance.new("Animation",cbd.Character)
+a__a.AnimationId="http://www.roblox.com/Asset?ID=95390631"local b__a=_cd:LoadAnimation(a__a)
+reloadsound=Instance.new('Sound',dbd.Torso)reloadsound.Volume=4;reloadsound.SoundId='rbxassetid://266147528'
+equip=Instance.new('Sound',dbd.Torso)equip.Volume=4;equip.SoundId='rbxassetid://131045401'
+equip2=Instance.new('Sound',dbd.Torso)equip2.Volume=4;equip2.SoundId='rbxassetid://131045429'
+function equipped(cb_a)
+function Shoot()
+if
+standed==false then
+if debounce==0 then debounce=1
+if cb_a.Target~=nil then
+if
+
+cb_a.Target.Parent:findFirstChild("Humanoid")~=nil and cb_a.Target.Name~="Head"then
+cb_a.Target.Parent.Humanoid:TakeDamage(75)
+hit=Instance.new('Sound',cb_a.Target.Parent.Torso)hit.Volume=7;hit.SoundId='rbxassetid://159970596'hit:Play()elseif
+cb_a.Target.Parent.Parent:findFirstChild("Humanoid")~=nil then
+cb_a.Target.Parent.Parent.Humanoid:TakeDamage(45)
+hit=Instance.new('Sound',cb_a.Target.Parent.Parent.Torso)hit.Volume=7;hit.SoundId='rbxassetid://159970596'hit:Play()elseif
+cb_a.Target.Name=="Part"then Hit=cb_a.hit;if Hit==nil then return end
+I=Instance.new("Part")I.Parent=game.Workspace;I.CFrame=Hit;I.Anchored=true;I.Transparency=1
+I.Anchored=true;I.CanCollide=false;Pa=Instance.new('ParticleEmitter',I)
+Pa.Size=NumberSequence.new(0.2)Pa.Speed=NumberRange.new(40)
+Pa.Lifetime=NumberRange.new(0.4)Pa.RotSpeed=NumberRange.new(-255,250)
+Pa.Texture='rbxassetid://316915922'Pa.LightEmission=0;Pa.EmissionDirection='Back'Pa.VelocitySpread=250
+Pa.Rate=500;Pa2=Instance.new('ParticleEmitter',I)
+Pa2.Size=NumberSequence.new(0.2)Pa2.Speed=NumberRange.new(40)
+Pa2.Lifetime=NumberRange.new(0.4)Pa2.RotSpeed=NumberRange.new(-255,250)
+Pa2.Texture='rbxassetid://316915922'Pa2.LightEmission=0;Pa2.EmissionDirection='Back'Pa2.VelocitySpread=250
+Pa2.Rate=1000;Pa3=Instance.new('ParticleEmitter',I)
+Pa3.Size=NumberSequence.new(0.2)Pa3.Speed=NumberRange.new(40)
+Pa3.Lifetime=NumberRange.new(0.4)Pa3.RotSpeed=NumberRange.new(-255,250)
+Pa3.Texture='rbxassetid://316915922'Pa3.LightEmission=0;Pa3.EmissionDirection='Back'Pa3.VelocitySpread=250
+Pa3.Rate=1000;Pa4=Instance.new('ParticleEmitter',I)
+Pa4.Size=NumberSequence.new(0.4)Pa4.Speed=NumberRange.new(40)
+Pa4.Lifetime=NumberRange.new(0.4)Pa4.RotSpeed=NumberRange.new(-255,250)
+Pa4.Texture='rbxassetid://316915922'Pa4.LightEmission=0;Pa4.EmissionDirection='Back'Pa4.VelocitySpread=250
+Pa4.Rate=1000;wait(0.1)Pa.Enabled=false;Pa2.Enabled=false;Pa3.Enabled=false
+Pa4.Enabled=false;hit=Instance.new('Sound',I)hit.Volume=5
+hit.SoundId='rbxassetid://159970596'hit:Play()hit2=Instance.new('Sound',I)hit2.Volume=14
+hit2.SoundId='rbxassetid://516789356'hit2:Play()end end;___a:Play()add:Stop()light.Enabled=true
+gunfirefx.Enabled=true;shootsound=Instance.new('Sound',dbd.Torso)
+shootsound.Volume=3;shootsound.SoundId='rbxassetid://149355375'
+shootsound:Play()wait(0.01)light.Enabled=false;gunfirefx.Enabled=false
+wait(0.001)add:Play()debounce=0 end end end;cb_a.Button1Down:connect(Shoot)end;Tool.Equipped:connect(equipped)
+local c__a=game.Players.LocalPlayer;repeat wait()until c__a.Character.Humanoid
+local d__a=c__a.Character.Humanoid;local _a_a=c__a:GetMouse()
+local aa_a=Instance.new("Animation",c__a.Character)aa_a.AnimationId="http://www.roblox.com/Asset?ID=95384819"
+local ba_a=d__a:LoadAnimation(aa_a)reloading=false
+_a_a.KeyDown:connect(function(cb_a)
+if cb_a=="r"then if reloading==true then ba_a:Play()
+reloadsound:Play()wait(2)ba_a:Stop()end end end)
+_a_a.KeyDown:connect(function(cb_a)
+if cb_a=="q"then
+if reloading==true then
+if standed==false then standed=true
+add:Stop()equip2:Play()wait()dcd:Play()
+Tool.GripForward=Vector3.new(0.485,0.14,-0.863)elseif standed==true then standed=false;dcd:Stop()wait()add:Play()
+equip:Play()Tool.GripForward=Vector3.new(-0.501,0.137,-0.855)end end end end)stfu=false;function equipped()wait()stfu=true;wait()dcd:Play()equip:Play()
+reloading=true end;function unequipped()wait()dcd:Stop()
+reloading=false;add:Stop()stfu=false end
+Tool.Equipped:connect(equipped)Tool.Unequipped:connect(unequipped)
+stfuu=Instance.new('Sound',dbd.Torso)stfuu.Volume=3;stfuu.Pitch=6.8;stfuu.SoundId='rbxassetid://261303790'
+_a_a.KeyDown:connect(function(cb_a)
+if
+cb_a=="z"then if stfu==true then stfuu:Play()
+game:GetService("Chat"):Chat(dbd.Head,"SHUT THE FUCK UP U CUNT",Enum.ChatColor.Red)wait(2)end end end)local ca_a=game.Players.LocalPlayer
+repeat wait()until ca_a.Character.Humanoid;local da_a=ca_a.Character.Humanoid;local _b_a=ca_a:GetMouse()
+equipsound=Instance.new('Sound',ca_a.Character.Torso)equipsound.Volume=3;equipsound.SoundId='rbxassetid://153647514'
+local ab_a=Instance.new("Animation",ca_a.Character)ab_a.AnimationId="http://www.roblox.com/asset/?id=28492456"
+local bb_a=da_a:LoadAnimation(ab_a)plyr=ca_a;ismasked=false
+maskhat=Instance.new('Hat',game.Workspace)maskhat.Name='IsMasked'
+maskhat.AttachmentForward=Vector3.new(0,0,0.1)maskhat.AttachmentPos=Vector3.new(0,0.8,-0.05)
+maskhat.AttachmentRight=Vector3.new(1,0,0)maskhat.AttachmentUp=Vector3.new(0,1,0)
+maskhandle=Instance.new('Part',maskhat)maskhandle.Name='Handle'maskhandle.Anchored=false
+maskhandle.Size=Vector3.new(1.33,1,1.7)maskmeshh=Instance.new('SpecialMesh',maskhandle)
+maskmeshh.MeshType='FileMesh'maskmeshh.MeshId='http://www.roblox.com/asset/?id=304084512'
+maskmeshh.TextureId='http://www.roblox.com/asset/?id=304083165'wait(0.001)
+game.Workspace.IsMasked.Parent=plyr.Character;maskhandle.Transparency=1
+_b_a.KeyDown:connect(function(cb_a)
+if cb_a=="f"then
+if ismasked==false then
+ismasked=true;Handle.Transparency=1;bb_a:Play()wait(0.5)bb_a:Stop()
+equipsound:Play()Handle.Transparency=0
+ca_a.Character.Humanoid.DisplayDistanceType='None'maskhandle.Transparency=0 elseif ismasked==true then ismasked=false
+Handle.Transparency=1;bb_a:Play()wait(0.5)bb_a:Stop()
+equipsound:Play()ca_a.Character.Humanoid.DisplayDistanceType='Viewer'
+maskhandle.Transparency=1;Handle.Transparency=0 end end end)end)_dc.Name="Button1"_dc.Parent=dbc
+_dc.BackgroundColor3=Color3.new(0,0,0)
+_dc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)_dc.Position=UDim2.new(0,10,0,300)
+_dc.Size=UDim2.new(0,100,0,50)_dc.ZIndex=10
+_dc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;_dc.Font=Enum.Font.SourceSansLight
+_dc.FontSize=Enum.FontSize.Size18;_dc.Text="Kill Server"_dc.TextColor3=Color3.new(0,0,0)
+_dc.TextSize=18
+_dc.MouseButton1Down:connect(function()
+local bad=Instance.new("Sound",game.Workspace)bad.Name="GET CRASHED"
+bad.SoundId="http://www.roblox.com/asset/?id=412309792"bad.Looped=true;bad.Volume=20;bad:Play()end)adc.Name="Button2"adc.Parent=dbc
+adc.BackgroundColor3=Color3.new(0,0,0)
+adc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)adc.Position=UDim2.new(0,120,0,120)
+adc.Size=UDim2.new(0,100,0,50)adc.ZIndex=10
+adc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;adc.Font=Enum.Font.SourceSansLight
+adc.FontSize=Enum.FontSize.Size18;adc.Text="ESP"adc.TextColor3=Color3.new(0,0,0)adc.TextSize=18
+adc.MouseButton1Down:connect(function()
+print()wait(0.1)
+local function bad()
+for cad,dad in pairs(game.Players:GetChildren())do
+if dad~=
+game.Players.LocalPlayer.Character.Torso then
+local _bd=Instance.new("BillboardGui",workspace.Camera)local abd=Instance.new("Frame",_bd)_bd.AlwaysOnTop=true
+_bd.Enabled=true;_bd.Size=UDim2.new(4.5,0,6,0)_bd.Name="ESP"
+_bd.Adornee=dad.Character.Torso;_bd.StudsOffset=Vector3.new(0,-0.6,0)
+abd.BackgroundColor3=Color3.new(170,255,0)abd.BackgroundTransparency=0.8
+abd.BorderColor3=Color3.new(0,0,0)abd.BorderSizePixel=1;abd.Size=UDim2.new(1,0,1,0)
+local bbd=Instance.new("TextLabel",_bd)bbd.Size=UDim2.new(1,0,1,0)bbd.BackgroundTransparency=1
+bbd.Position=UDim2.new(0,0,0,0)bbd.Text=dad.Name;bbd.TextScaled=true
+bbd.TextColor3=Color3.new(255,255,255)bbd.TextXAlignment="Center"bbd.TextYAlignment="Top"bbd.Font="Highway"bbd.Position=UDim2.new(0,0,0,
+-100)end end;print("ESP Loaded!")
+print("Credits to Kid Atlaas/FileExplorer")end
+game.Players.LocalPlayer.CharacterAdded:connect(bad)bad()end)bdc.Name="Button2"bdc.Parent=dbc
+bdc.BackgroundColor3=Color3.new(0,0,0)
+bdc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)bdc.Position=UDim2.new(0,120,0,180)
+bdc.Size=UDim2.new(0,100,0,50)bdc.ZIndex=10
+bdc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;bdc.Font=Enum.Font.SourceSansLight
+bdc.FontSize=Enum.FontSize.Size18;bdc.Text="Lord Gaben"bdc.TextColor3=Color3.new(0,0,0)
+bdc.TextSize=18
+bdc.MouseButton1Down:connect(function()
+local bad=Instance.new("Sound",workspace)bad.SoundId="http://www.roblox.com/asset/?id=190797518"bad.Volume=20
+bad.Looped=true;bad:Play()bad:Stop()bad.Name="Ro-MusicPlayer"wait(3)
+bad:Play()t1="http://www.roblox.com/asset/?id=238182091"
+t2="http://www.roblox.com/asset/?id=238182091"t3="http://www.roblox.com/asset/?id=238182091"
+local cad=game.Players:GetChildren()local dad=game.Workspace:GetChildren()
+for abd,bbd in pairs(cad)do
+pe=Instance.new("ParticleEmitter",bbd.Character.Torso)pe.Texture=t3;pe.VelocitySpread=5 end;for i=1,#dad do
+if dad[i]:isA("BasePart")then
+pe=Instance.new("ParticleEmitter",dad[i])pe.Texture=t3;pe.VelocitySpread=5 end end
+local _bd=Instance.new("Sky",game.Lighting)_bd.SkyboxBk=t1;_bd.SkyboxDn=t2;_bd.SkyboxFt=t3;_bd.SkyboxLf=t1
+_bd.SkyboxRt=t2;_bd.SkyboxUp=t3;_bd.StarCount=0 end)cdc.Name="Button2"cdc.Parent=dbc
+cdc.BackgroundColor3=Color3.new(0,0,0)
+cdc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)cdc.Position=UDim2.new(0,120,0,60)
+cdc.Size=UDim2.new(0,100,0,50)cdc.ZIndex=10
+cdc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;cdc.Font=Enum.Font.SourceSansLight
+cdc.FontSize=Enum.FontSize.Size18;cdc.Text="Bomb"cdc.TextColor3=Color3.new(0,0,0)cdc.TextSize=18
+cdc.MouseButton1Down:connect(function()
+local bad=game:GetService("Players").LocalPlayer;local cad=bad.Character;local dad=cad.Torso;local _bd=1;local abd="Medium stone gray"local bbd=false
+local cbd=Instance.new("HopperBin",bad.Backpack)cbd.Name="Bomb Vest"local dbd=Vector3.new(0,100,0)
+function NewPart(aa_a)
+local ba_a=Instance.new("Part",aa_a)ba_a.CanCollide=false;ba_a.FormFactor="Custom"ba_a.Position=dbd
+ba_a.TopSurface="Smooth"ba_a.BottomSurface="Smooth"
+ba_a.BrickColor=BrickColor.new(abd)
+dbd=dbd+Vector3.new(0,ba_a.Size.Y+10,0)return ba_a end;local _cd=cad:FindFirstChild("Bomb")
+if _cd then _cd:Destroy()end;_cd=Instance.new("Model",cad)_cd.Name="Bomb"
+local acd=NewPart(_cd)acd.Size=Vector3.new(2.2,0.5,1.2)
+local bcd=Instance.new("Weld",acd)bcd.Part0=acd;bcd.Part1=dad;bcd.C0=CFrame.new(0,1.1,0)
+local ccd=Instance.new("PointLight",acd)ccd.Range=15;ccd.Brightness=5;ccd.Color=Color3.new(1,0,0)
+local dcd=Instance.new("Sound",acd)dcd.SoundId="http://www.roblox.com/asset/?id=188588790"
+local _dd=Instance.new("Sound",acd)
+_dd.SoundId="http://www.roblox.com/asset/?id="..
+(tonumber((math.ceil(1776.66 ^2)+17).."."..
+string.rep("36",3))*77)+0.00003;_dd.Pitch=2.8;_dd.Volume=3;local add=NewPart(_cd)
+add.Size=Vector3.new(1.5,1.5,0.5)local bdd=Instance.new("Weld",add)bdd.Part0=add;bdd.Part1=dad;bdd.C0=CFrame.new(0,0.1,
+-0.75)local cdd=NewPart(_cd)
+cdd.Size=Vector3.new(0.2,0.5,1.6)local ddd=Instance.new("Weld",cdd)ddd.Part0=cdd;ddd.Part1=dad;ddd.C0=CFrame.new(0.65,
+-0.9,-0.2)local ___a=NewPart(_cd)
+___a.Size=Vector3.new(0.2,1.5,0.2)local a__a=Instance.new("Weld",___a)a__a.Part0=___a
+a__a.Part1=dad;a__a.C0=CFrame.new(0.65,0.1,0.5)local b__a=NewPart(_cd)
+b__a.Size=Vector3.new(0.2,0.5,1.6)local c__a=Instance.new("Weld",b__a)c__a.Part0=b__a
+c__a.Part1=dad;c__a.C0=CFrame.new(-0.65,-0.9,-0.2)
+local d__a=NewPart(_cd)d__a.Size=Vector3.new(0.2,1.5,0.2)
+local _a_a=Instance.new("Weld",d__a)_a_a.Part0=d__a;_a_a.Part1=dad
+_a_a.C0=CFrame.new(-0.65,0.1,0.5)
+cbd.Selected:connect(function(aa_a)_bd=0.3
+aa_a.Icon="http://www.roblox.com/asset/?id=9109985"
+aa_a.Button1Down:connect(function()
+if bbd==false then bbd=true;_dd:Play()wait(1.4)
+local ba_a=Instance.new("Explosion",Workspace)ba_a.Position=acd.Position;ba_a.BlastPressure=100000
+ba_a.DestroyJointRadiusPercent=0.7;ba_a.ExplosionType="CratersAndDebris"ba_a.BlastRadius=50
+ba_a.Hit:connect(function(ca_a,da_a)
+ca_a.Anchored=false;if da_a<=10 then ca_a:BreakJoints()end end)end end)end)
+cbd.Deselected:connect(function()_bd=1 end)
+coroutine.wrap(function()repeat wait(_bd)ccd.Enabled=not ccd.Enabled;dcd:Play()until
+bbd==true end)()end)ddc.Name="Button2"ddc.Parent=dbc
+ddc.BackgroundColor3=Color3.new(0,0,0)
+ddc.BorderColor3=Color3.new(0.105882,0.164706,0.207843)ddc.Position=UDim2.new(0,120,0,300)
+ddc.Size=UDim2.new(0,100,0,50)ddc.ZIndex=10
+ddc.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;ddc.Font=Enum.Font.SourceSansLight
+ddc.FontSize=Enum.FontSize.Size18;ddc.Text="Keemstar"ddc.TextColor3=Color3.new(0,0,0)
+ddc.TextSize=18
+ddc.MouseButton1Down:connect(function()local bad=Instance.new("Sound")
+bad.Name="Sound"bad.SoundId="http://www.roblox.com/asset/?id=433992205"bad.Volume=1
+bad.Pitch=1;bad.Looped=true;bad.archivable=false;bad.Parent=game.Workspace
+bad:play()
+for dad,_bd in pairs(game.Players:GetChildren())do p=_bd.Character
+local abd=Instance.new("Weld",p.Torso)abd.Part0=p.Torso;local bbd=Instance.new("Part",p.Torso)
+bbd.Anchored=true;bbd.CanCollide=false;bbd.Size=Vector3.new(3,2,6)
+bbd.CustomPhysicalProperties=PhysicalProperties.new(0,0,0,0,0)abd.Part1=bbd;abd.C1=CFrame.new(0,0,0)*
+CFrame.Angles(0,math.rad(180),0)bbd.Anchored=false
+local cbd=Instance.new("SpecialMesh",bbd)cbd.MeshType=Enum.MeshType.FileMesh
+cbd.Scale=Vector3.new(.5,.5,.5)cbd.MeshId="rbxassetid://471652548"cbd.TextureId="rbxassetid://471652580"
+local dbd=Instance.new("Weld",p.Torso)dbd.Part0=p.Torso;local _cd=Instance.new("Part",p.Torso)
+_cd.Anchored=true;_cd.CanCollide=false;_cd.Size=Vector3.new(1,1,1)
+_cd.CustomPhysicalProperties=PhysicalProperties.new(0,0,0,0,0)dbd.Part1=_cd;dbd.C1=CFrame.new(0,-4,3.5)_cd.Anchored=false
+_cd.Transparency=1;p.Humanoid.WalkSpeed=60
+for acd,bcd in pairs(p:GetChildren())do
+if bcd:IsA("Part")then
+bcd.Transparency=1 elseif bcd:IsA("Hat")then bcd:Destroy()elseif bcd:IsA("Model")then bcd:Destroy()end end end;local cad={}for dad,_bd in pairs(game.Players:GetChildren())do
+table.insert(cad,_bd)end
+for dad,_bd in pairs(cad)do
+pe=Instance.new("ParticleEmitter",_bd.Character.Torso)pe.Texture="http://www.roblox.com/asset/?id=8979672"pe.VelocitySpread=50
+pe.Rate=1
+se=Instance.new("ParticleEmitter",_bd.Character.Torso)se.Texture="http://www.roblox.com/asset/?id=176067516"se.VelocitySpread=50
+se.Rate=1
+fe=Instance.new("ParticleEmitter",_bd.Character.Torso)fe.Texture="http://www.roblox.com/asset/?id=179012130"fe.VelocitySpread=50
+fe.Rate=1 end end)__d.Name="Button2"__d.Parent=dbc
+__d.BackgroundColor3=Color3.new(0,0,0)
+__d.BorderColor3=Color3.new(0.105882,0.164706,0.207843)__d.Position=UDim2.new(0,120,0,240)
+__d.Size=UDim2.new(0,100,0,50)__d.ZIndex=10
+__d.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;__d.Font=Enum.Font.SourceSansLight
+__d.FontSize=Enum.FontSize.Size18;__d.Text="SwearAll"__d.TextColor3=Color3.new(0,0,0)
+__d.TextSize=18
+__d.MouseButton1Down:connect(function()
+for bad,cad in
+pairs(game.Players:GetChildren())do
+game:GetService("Chat"):Chat(cad.Character.Head,"EAT MY \n CUNT \n YOU WHORE \n SHIT \n BITCH \n CUM \n JIZZ \n NIGGER")end end)a_d.Name="header2"a_d.Parent=dbc;a_d.Active=true
+a_d.BackgroundColor3=Color3.new(1,1,1)a_d.BackgroundTransparency=1;a_d.BorderSizePixel=0
+a_d.Position=UDim2.new(0,225,0,5)a_d.Size=UDim2.new(0,120,0,100)
+a_d.Font=Enum.Font.SourceSansLight;a_d.FontSize=Enum.FontSize.Size28
+a_d.Text="Filtering Enabled Scripts"a_d.TextSize=28;a_d.TextWrapped=true;b_d.Name="Button3"b_d.Parent=dbc
+b_d.BackgroundColor3=Color3.new(0,0,0)
+b_d.BorderColor3=Color3.new(0.105882,0.164706,0.207843)b_d.Position=UDim2.new(0,235,0,120)
+b_d.Size=UDim2.new(0,100,0,50)b_d.ZIndex=10
+b_d.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;b_d.Font=Enum.Font.SourceSansLight
+b_d.FontSize=Enum.FontSize.Size18;b_d.Text="Cafe Destroy"b_d.TextColor3=Color3.new(0,0,0)
+b_d.TextSize=18
+b_d.MouseButton1Down:connect(function()local bad
+if workspace:FindFirstChild("GiveSystem")then
+bad=workspace.GiveSystem.GiveItem elseif workspace:FindFirstChild("HandToCentre")then
+bad=workspace.HandToCentre.GiveItem else warn("MODEL NOT FOUND")end;local cad={["HandToCentre"]=true,["GiveSystem"]=true}
+for abd,bbd in
+pairs(game.Workspace:children())do if not cad[bbd.Name]then
+pcall(function()
+bad:FireServer(game.Players.LocalPlayer,bbd)end)end end;local dad
+if workspace:FindFirstChild("GiveSystem")then
+dad=workspace.GiveSystem.GiveItem elseif workspace:FindFirstChild("HandToCentre")then
+dad=workspace.HandToCentre.GiveItem else warn("MODEL NOT FOUND")end;local _bd={["HandToCentre"]=true,["GiveSystem"]=true}
+for abd,bbd in
+pairs(game.Workspace:children())do if not _bd[bbd.Name]then
+pcall(function()
+dad:FireServer(game.Players.LocalPlayer,bbd)end)end end end)c_d.Name="header3"c_d.Parent=dbc;c_d.Active=true
+c_d.BackgroundColor3=Color3.new(1,1,1)c_d.BackgroundTransparency=1;c_d.BorderSizePixel=0
+c_d.Position=UDim2.new(0,225,0,235)c_d.Size=UDim2.new(0,120,0,100)
+c_d.Font=Enum.Font.SourceSansLight;c_d.FontSize=Enum.FontSize.Size28;c_d.Text="More to come soon!"
+c_d.TextSize=28;c_d.TextWrapped=true;d_d.Name="Button3"d_d.Parent=dbc
+d_d.BackgroundColor3=Color3.new(0,0,0)
+d_d.BorderColor3=Color3.new(0.105882,0.164706,0.207843)d_d.Position=UDim2.new(0,235,0,180)
+d_d.Size=UDim2.new(0,100,0,50)d_d.ZIndex=10
+d_d.Style=Enum.ButtonStyle.RobloxRoundDropdownButton;d_d.Font=Enum.Font.SourceSansLight
+d_d.FontSize=Enum.FontSize.Size18;d_d.Text="Sound"d_d.TextColor3=Color3.new(0,0,0)
+d_d.TextSize=18
+d_d.MouseButton1Down:connect(function()
+while wait()do
+for bad,cad in
+pairs(game:GetService('Players'):GetPlayers())do
+if
+cad.Character~=nil and cad.Character:FindFirstChild'Head'then
+for dad,_bd in pairs(cad.Character.Head:GetChildren())do
+s=cad.Character.Head["Died"]s.SoundId="rbxassetid://604650009"s.Volume=5;s.Pitch=1;s.Looped=true
+s.Playing=true end end end end end)_ad.Name="ScriptsButton"_ad.Parent=_ab
+_ad.BackgroundColor3=Color3.new(1,1,1)_ad.Position=UDim2.new(0,0,0,255)
+_ad.Size=UDim2.new(0,100,0,50)_ad.Style=Enum.ButtonStyle.RobloxRoundDropdownButton
+_ad.Font=Enum.Font.SourceSans;_ad.FontSize=Enum.FontSize.Size18;_ad.Text="Scripts"
+_ad.TextSize=18
+_ad.MouseButton1Down:connect(function()cab.Visible=false;cbb.Visible=false
+dbc.Visible=true;_db.Visible=false;__c.Visible=false end)aad.Name="FEChecm"aad.Parent=_ab
+aad.BackgroundColor3=Color3.new(1,1,1)aad.BackgroundTransparency=1;aad.BorderSizePixel=3
+aad.Position=UDim2.new(0,0,0,315)aad.Size=UDim2.new(0,95,0,60)
+aad.Font=Enum.Font.SourceSansLight;aad.FontSize=Enum.FontSize.Size24;aad.Text="FE: DISABLED"
+aad.TextColor3=Color3.new(0,0,0)aad.TextSize=24;aad.TextWrapped=true
+if
+game.Workspace.FilteringEnabled==true then aad.Text='FE: ENABLED'else aad.Text='FE: DISABLED'end

