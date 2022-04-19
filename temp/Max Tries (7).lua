@@ -1,1 +1,0 @@
-game.Players.LocalPlayer.leaderstats1.Tries.Value = 400

@@ -1,1 +1,0 @@
-game:GetObjects("rbxassetid://274016211")[1].Parent=game.Players.LocalPlayer.PlayerGui

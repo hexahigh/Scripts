@@ -1,1 +1,0 @@
-x = game:GetService("InsertService"):LoadAsset(72713855)x.Parent = game.Workspace x:makeJoints() x:MoveTo(game.Players.peyquinn.Character.Head.Position)

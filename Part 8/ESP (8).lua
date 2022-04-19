@@ -1,1 +1,0 @@
-Hexus.RunESP() --Works for hexus only ;)

@@ -1,1 +1,0 @@
-workspace.Remote.Damage:FireServer(workspace.PLAYERNAMEHERE!.Humanoid, 0)

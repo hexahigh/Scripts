@@ -1,1 +1,0 @@
-game.Lighting.TimeOfDay = "00:00:00"

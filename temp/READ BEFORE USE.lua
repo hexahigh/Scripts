@@ -1,1 +1,0 @@
-if you want to remove the gear, pet, or bottom, replace "equip" with "unequip"

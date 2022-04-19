@@ -1,1 +1,0 @@
-game.ReplicatedStorage.YOURNAMELevel.Value = 35000 -- level here

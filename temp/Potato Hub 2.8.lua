@@ -1,1 +1,0 @@
-loadstring(game:HttpGet(('https://potato-hub.000webhostapp.com/PotatoHub_Auto-Update.lua'),true))()

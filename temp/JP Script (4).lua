@@ -1,1 +1,0 @@
-game.Workspace.PlayerNameHere.Humanoid.JumpPower = 200

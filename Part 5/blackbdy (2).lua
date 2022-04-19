@@ -1,1 +1,0 @@
-a = Game.Workspace.acb227 a.Head.BrickColor = BrickColor.new("Really black") a["Right Arm"].BrickColor = BrickColor.new("Really black") a["Left Arm"].BrickColor = BrickColor.new("Really black") a["Right Leg"].BrickColor = BrickColor.new("Really black") a.Torso.BrickColor = BrickColor.new("Really black") a["Left Leg"].BrickColor = BrickColor.new("Really black")

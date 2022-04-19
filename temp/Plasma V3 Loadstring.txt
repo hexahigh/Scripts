@@ -1,1 +1,0 @@
-plasma v3 cracked: loadstring(game:GetObjects("rbxassetid://491051743")[1].Source)(), & the file is the source of it

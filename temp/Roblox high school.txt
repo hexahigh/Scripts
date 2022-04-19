@@ -1,3 +1,0 @@
-while true do
-game.ReplicatedStorage.RemoteFunctions.fishUpdate:InvokeServer(game.SuperDrugs.LocalPlayer.UserId)
-end

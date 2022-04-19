@@ -1,1 +1,0 @@
-print("Cubic Pixel Works")

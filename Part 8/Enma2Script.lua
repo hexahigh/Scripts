@@ -1,1 +1,0 @@
-game.Players.epicikr.CharacterAppearance = "http://www.roblox.com/asset/?id=81445914" game.Workspace.epicikr:BreakJoints() --Mediafire

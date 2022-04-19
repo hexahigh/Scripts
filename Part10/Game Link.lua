@@ -1,1 +1,0 @@
-https://www.roblox.com/games/998191301/Ro-No-Hero-REBORN-ALPHA-ELECTRIFICATION

@@ -1,4 +1,0 @@
-while true do
-game.Players.LocalPlayer.leaderstats.Rank.Value=2537
-wait()
-end

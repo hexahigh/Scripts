@@ -1,1 +1,0 @@
-for i,v in pairs(game.Workspace:GetChildren()) do print(v) end
