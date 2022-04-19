@@ -1,1 +1,0 @@
-game.Players.PLAYERNAME.Character.Humanoid.HipHeight = 0/0

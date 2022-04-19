@@ -1,1 +1,0 @@
-part = Instance.new("Part")

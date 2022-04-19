@@ -1,1 +1,0 @@
-game:service("TeleportService"):Teleport(IDHERE)

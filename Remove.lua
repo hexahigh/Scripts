@@ -1,1 +1,0 @@
-game.Players.player name:Remove()

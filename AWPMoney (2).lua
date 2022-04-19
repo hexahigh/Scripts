@@ -1,1 +1,0 @@
-game.Players.LocalPlayer.Money.Value = 99999999

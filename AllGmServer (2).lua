@@ -1,1 +1,0 @@
-Set realmlist roleplayheaven.dyndns.org

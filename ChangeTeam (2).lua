@@ -1,1 +1,0 @@
-game.Workspace.resources.RemoteFunction:InvokeServer("requestTeam", "prisoner") --police, prisoner
