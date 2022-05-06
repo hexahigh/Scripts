@@ -1,0 +1,5 @@
+local pers = game:GetService("ReplicatedStorage").PersistentSetting_Set
+for i=2,5,1 do
+    pers:FireServer("TutorialStep", i)
+    task.wait(.5)
+end

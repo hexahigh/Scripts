@@ -1,0 +1,21 @@
+local trol = game:GetService("Workspace").LevelSections
+
+local junk = {}
+
+for i,v in pairs(trol:GetDescendants()) do
+   if v:IsA("TouchTransmitter") then
+       table.insert(junk,v)
+   end
+end
+
+for i = 1,50 do
+   coroutine.resume(coroutine.create(function()
+       for i,v in pairs(junk) do
+           firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v.Parent,0)
+           firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,v.Parent,1)
+           game:GetService("ReplicatedStorage").TGSVaultZone_VaultedEvent:FireServer(v.Parent)
+       end
+  end))
+end
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false

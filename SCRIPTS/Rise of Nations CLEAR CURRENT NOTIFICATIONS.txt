@@ -1,0 +1,6 @@
+local alert = game.Players.LocalPlayer.PlayerGui.GameGui.MainFrame
+for i,v in ipairs(game.GetChildren(alert)) do
+   if string.match(v.Name, "AlertSample") then
+       v.Destroy(v)
+   end
+end

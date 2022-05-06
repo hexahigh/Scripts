@@ -1,0 +1,27 @@
+local skin = require(game:GetService("ReplicatedStorage").Modules.Skins)
+local skins = {}
+for key, _ in pairs(skin) do
+    table.insert(skins,key)
+end
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local w = library:CreateWindow("Battle Royale Simulator!")
+
+local b = w:CreateFolder("Main")
+
+
+b:Dropdown("Skin selector",skins,true,function(mob)
+
+        local s = tostring(mob)
+        game:GetService("ReplicatedStorage").Remotes.Skin:FireServer(s)
+end)
+
+b:Toggle("Silent aim",function(bool)
+    if not getgenv().SilentAim then
+        local Silent = loadstring(game:HttpGet(('https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Battle_Royale_Simulator_Silent_Aim.lua')))()
+    end
+    getgenv().SilentAim.Enabled  = bool
+end)
+
+
+b:DestroyGui()

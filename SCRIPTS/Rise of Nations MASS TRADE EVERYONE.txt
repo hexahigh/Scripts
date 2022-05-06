@@ -1,0 +1,23 @@
+local inf = {
+   [1] = 'Oil', -- Resource Name
+   [2] = 'Sell', -- Buy or Sell
+   [3] = 5, -- Amount
+   [4] = 1, -- Price Modifier
+   [5] = 'Bulk' -- Trade or Bulk
+}
+local ctr = {} -- leave the rest alone unless you code
+local bp = workspace.Baseplate.Cities
+local gc = game.GetChildren(bp)
+local ct = 0
+
+for i,v in ipairs(gc) do
+   ct = ct + 1
+   table.insert(ctr, ct, v.Name)
+end
+
+for i,v in ipairs(ctr) do
+   local tr = "ResourceTrade"
+   local st = workspace.GameManager.ManageAlliance
+   st.FireServer(st, v, tr, inf)
+   wait(1) -- delay between firing, you can edit this if wanted
+end

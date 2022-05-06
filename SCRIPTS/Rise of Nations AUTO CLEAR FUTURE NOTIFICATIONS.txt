@@ -1,0 +1,7 @@
+local alert = game.Players.LocalPlayer.PlayerGui.GameGui.MainFrame
+alert.ChildAdded.Connect(alert.ChildAdded, function(child)
+   if string.match(child.Name, "AlertSample") then
+       wait()
+       child.Destroy(child)
+   end
+end)

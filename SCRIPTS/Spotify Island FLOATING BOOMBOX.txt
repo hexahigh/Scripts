@@ -1,0 +1,13 @@
+local sync = game:GetService("ReplicatedStorage").PlaySoungRemote_SpotifySync
+local cave = game:GetService("Workspace").World.SpotifyIsland.MusicGames.CaveMusicGame:FindFirstChild("Music Cave"):FindFirstChild("Buttons L")
+local trampoline = game:GetService("Workspace").LevelSections.Start.JumpingMusicGame.Buttons.TrampolineButton
+local text1 = "Lofi One Shots MeloSax L"
+local text2 = "Lofi One Shots Piano-Bass Stabs 1"
+for i=1,10,1 do
+    sync:FireServer(cave, text1)
+    task.wait(.5)
+end
+for i=1,10,1 do
+    sync:FireServer(trampoline, text2)
+    task.wait(.5)
+end

@@ -1,0 +1,19 @@
+getgenv().Webhook = "" -- Discord webhook For Notifications  (ignore if u slow)
+getgenv().WhitelistedPetsToEnchant = {'Cat', 'Dog'}; -- U just put Pet Names in table
+getgenv().EnchantedWhitelist = { -- What Enchants do you want, for instance first table means that u want Pet with Strength 5 and Coins 3 ( u can make multiple patters with table that will meet requirement)
+    {
+        {'Strength', {5}};
+        {'Coins', {3}}
+    };
+    {
+        {'Strength', {3}};
+        {'Coins', {2}}
+    }
+}
+ 
+getgenv().PetsToConvert = { -- U just put Pet Names in table
+    {'Dog', 'Cat'}; -- To Golden
+    {}; -- To Rainbow
+    {}; -- To Dark Matter
+};
+loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/PetSimX.lua'))()
